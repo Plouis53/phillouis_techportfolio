@@ -1,4 +1,5 @@
 import emailjs from "@emailjs/browser";
+import React from "react";
 import { useRef } from "react";
 
 const ContactModal = ({ closeModal }) => {

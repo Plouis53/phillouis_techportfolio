@@ -1,6 +1,7 @@
 import ProjectOne from "./ProjectOne.jsx";
 import ProjectTwo from "./ProjectTwo.jsx";
 import ProjectThree from "./ProjectThree.jsx";
+import React from "react";
 
 const ProjectCards = () => {
   return (

@@ -2,6 +2,7 @@ import HTML from "../assets/HTML.svg";
 import CSS from "../assets/CSS.svg";
 import JS from "../assets/JS.svg";
 import US from "../images/Us.png";
+import React from "react";
 
 const AroundTheUs = ({ showCard, category }) => {
   return (

@@ -5,6 +5,7 @@ import PracticumCoffeeShop from "../Projects/PracticumCoffeeShop.jsx";
 import PracticumLibrary from "../Projects/PracticumLibrary.jsx";
 import MyPortfolio from "../Projects/Portfolio.jsx";
 import { useState } from "react";
+import React from "react";
 
 const Projects = () => {
   const [showCard, setShowCard] = useState("all");

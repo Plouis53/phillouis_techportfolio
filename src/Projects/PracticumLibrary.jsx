@@ -1,6 +1,7 @@
 import HTML from "../assets/HTML.svg";
 import CSS from "../assets/CSS.svg";
 import Library from "../images/Library.png";
+import React from "react";
 
 
 const PracticumLibrary = ({ showCard, category }) => {

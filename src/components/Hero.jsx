@@ -7,7 +7,6 @@ import JS from "../assets/JS.svg";
 import React from "../assets/React.svg";
 import NODE from "../assets/NODE.svg";
 import Github from "../assets/Github.svg";
-// import Vite from "../assets/Vite.svg";
 
 const Hero = () => {
   return (

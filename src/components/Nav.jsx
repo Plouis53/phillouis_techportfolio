@@ -1,5 +1,7 @@
 // import Linkedin from "../assets/LinkedIn.svg";
 
+import React from "react";
+
 const Nav = ({ openModal }) => {
   return (
     <div className=" bg-[#363636] w-[100%] pt-[25px] pb-[25px] px-[70px] flex justify-between">

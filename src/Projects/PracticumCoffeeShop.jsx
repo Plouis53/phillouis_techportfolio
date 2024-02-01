@@ -1,6 +1,7 @@
 import HTML from "../assets/HTML.svg";
 import CSS from "../assets/CSS.svg";
 import CoffeeShop from "../images/Coffeeshop1.png";
+import React from "react";
 
 const PracticumCoffeeShop = ({ showCard, category }) => {
   return (

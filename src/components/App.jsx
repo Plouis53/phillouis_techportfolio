@@ -5,6 +5,7 @@ import About from "./About.jsx";
 import ContactModal from "./ContactModal.jsx";
 import Footer from "./Footer.jsx";
 import { useState } from "react";
+import React from "react";
 
 function App() {
   const [modal, setModal] = useState("");
