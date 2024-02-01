@@ -6,7 +6,6 @@ import PracticumLibrary from "../Projects/PracticumLibrary.jsx";
 import MyPortfolio from "../Projects/Portfolio.jsx";
 import { useState } from "react";
 
-
 const Projects = () => {
   const [showCard, setShowCard] = useState("all");
   const handleProject = (category) => {
