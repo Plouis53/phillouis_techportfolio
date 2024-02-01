@@ -1,3 +1,5 @@
+import React from "react";
+
 const Footer = () => {
   return (
     <footer className="footer footer-center p-10 bg-[#363636] text-base-content rounded">
