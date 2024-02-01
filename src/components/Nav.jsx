@@ -1,14 +1,15 @@
 // import Linkedin from "../assets/LinkedIn.svg";
-
+import NavDropDown from "./NavDropDown";
 import React from "react";
 
 const Nav = ({ openModal }) => {
   return (
-    <div className=" bg-[#363636] w-[100%] pt-[25px] pb-[25px] px-[70px] flex justify-between">
-      <h1 className="font-[Poppins] text-[30px] font-semibold text-white">
+    <div className="bg-[#363636] w-[100%] pt-[25px] pb-[25px] px-[30px] md:px-[70px] flex justify-between">
+      <h1 className="sm:block font-[Poppins] text-[30px] font-semibold text-white">
         Logo
       </h1>
-      <ul className="flex gap-[50px]">
+      <NavDropDown className="block md:hidden" />
+      <ul className="hidden lg:flex gap-[50px]">
         <li className="text-white font-[Poppins] text-[18px]  self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white ">
           About me
         </li>

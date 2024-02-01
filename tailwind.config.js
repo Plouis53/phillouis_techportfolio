@@ -27,6 +27,7 @@ export default {
       Github2: "url('../src/assets/Github2.svg')",
       Instagram: "url('../src/assets/Instagram.svg')",
       Close: "url('../src/assets/Close.svg')",
+      Filter: "url('../src/assets/Filter.svg')",
     },
   },
   plugins: [],

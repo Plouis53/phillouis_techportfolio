@@ -34,7 +34,7 @@ const MyPortfolio = ({ showCard, category }) => {
               Live site
             </button>{" "}
           </a>
-          <a href="https://github.com/Plouis53/portfolio_by_phil.louis.git">
+          <a href="https://github.com/Plouis53/phillouis_techportfolio.git">
             <button className="px-[30px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
               Code
             </button>{" "}

@@ -4,43 +4,12 @@ import Image1 from "../images/Image1.png";
 
 const About = (openModal) => {
   return (
-    <div className="px-[70px] py-[100px] w-full">
-      <h1 className="pb-[10px] font-[Poppins] text-[50px] text-white font-semibold border-b-[2px] border-white border-opacity-20">
+    <div className="px-[30px] py-[70px] w-full">
+      <h1 className="pb-[10px] font-[Poppins] text[40px] mb:text-[50px] text-white font-semibold border-b-[2px] border-white border-opacity-20">
         About me
       </h1>
-      <div className="flex justify-between gap-[40px] mt-[50px]">
-        {/* <div className="flex justify-between gap-[40px]">
-        <div className="flex flex-col gap-[20px] justify-center max-w-[50%] h-[750px] bg-[#363636] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-[20px] rounded-xl">
-          <div className="flex gap-[10px]">
-            <div className="flex flex-col gap-[20px] max-w-[50% h-[750px] p-[20px] rounded-xl">
-              <h1 className="font-[Poppins] text-[30px] pb-[5px] font-semibold text-white border-b-[2px] border-white border-opacity-50">
-                About me
-              </h1>
-              <p className="font-[Poppins] text-[15px] text-white">
-                My name is Phillippe Louis and I am a passionate web and
-                application designer with a deep love for creating visually
-                captivating and user-friendly digital experiences. My journey in
-                the world of web development began with a curiosity for turning
-                ideas into interactive and functional websites. Over the years,
-                I've honed my skills in both front-end and back-end
-                technologies, making me a versatile developer ready to take on
-                any challenge. On the front-end, I specialize in crafting
-                dynamic and engaging user interfaces using Typescript,
-                JavaScript, React.js, HTML, CSS3, and the powerful Tailwind CSS
-                framework. When it comes to the back-end, my tech stack is
-                fortified with Node.js, Express.js, MongoDB, and Google Cloud.
-                In addition to my technical skills, I'm highly experienced in
-                using Git and GitHub for project management and collaboration.
-                Whether it's a personal project or a collaborative effort, I'm
-                always eager to tackle new challenges and bring ideas to life.
-                Feel free to reach out, and let's work together to create
-                something amazing!
-              </p>
-            </div>
-          </div>
-        </div> */}
-
-        <div className="flex flex-col gap-[20px] justify-center max-w-[50%] h-[750px] bg-[#363636] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-[20px] rounded-xl">
+      <div className="flex flex-col mb:flex-row justify-between gap-[40px] mt-[50px]">
+        <div className="flex flex-col gap-[20px] justify-center w-full mb:max-w-[50%] h-[750px] bg-[#363636] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-[20px] rounded-xl">
           <div className="relative border-s border-gray-200 dark:border-[#f5dfa1]">
             <div className="relative border-s border-gray-200 dark:border-[#f5dfa1]">
               <div className="px-[15px]">
@@ -111,7 +80,7 @@ const About = (openModal) => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-[20px] align-center max-w-[50%] h-[750px] rounded-xl">
+        <div className="flex mb:flex-col gap-[20px] align-center w-full mb:max-w-[50%] h-[750px] rounded-xl">
           <div className="flex flex-col justify-between h-[750px] rounded-xl">
             <div className="flex m-auto mb-0 mt-0 gap-[30px] border-[1px] border-white rounded-[25%] p-[5px] w-[250px]">
               <img

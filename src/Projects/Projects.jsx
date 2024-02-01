@@ -4,6 +4,7 @@ import AroundTheUs from "../Projects/AroundTheUs.jsx";
 import PracticumCoffeeShop from "../Projects/PracticumCoffeeShop.jsx";
 import PracticumLibrary from "../Projects/PracticumLibrary.jsx";
 import MyPortfolio from "../Projects/Portfolio.jsx";
+import ProjectsFilter from "./ProjectsFilter.jsx";
 import { useState } from "react";
 import React from "react";
 
@@ -13,11 +14,14 @@ const Projects = () => {
     setShowCard(category);
   };
   return (
-    <div className="pt-[100px] pb-[100px] bg-[#363636] px-[70px]">
-      <h1 className="pb-[10px] font-[Poppins] text-[50px] text-white font-semibold border-b-[2px] border-white border-opacity-20">
-        My Projects
-      </h1>
-      <div className="flex gap-[50px] mt-[50px] justify-center">
+    <div className="pt-[100px] pb-[100px] bg-[#363636] px-[30px] md:px-[70px]">
+      <div className="flex justify-between border-b-[2px] border-white border-opacity-20">
+        <h1 className="pb-[10px] font-[Poppins] text-[40px] mb:text-[50px] text-white font-semibold">
+          My Projects
+        </h1>
+        <ProjectsFilter />
+      </div>
+      <div className="hidden md:flex gap-[50px] mt-[50px] justify-center">
         <button
           onClick={() => handleProject("all")}
           className="bg-[#2b2b2b] text-white font-[Poppins] font-semibold px-[30px] py-[10px] rounded-lg hover:bg-[#656565] hover:scale-110 ease-in-out duration-[.5s]"
@@ -43,7 +47,8 @@ const Projects = () => {
           React
         </button>
       </div>
-      <div className="mt-[100px] flex flex-wrap justify-center gap-[20px]">
+      {/* adjust accordingly */}
+      <div className="mt-[100px] flex flex-col items-center md:flex-row justify-center gap-[50px] mb:gap-[20px]">
         <NewsExplorer category="React" showCard={showCard} />
         <WhatToWear category="React" showCard={showCard} />
         <AroundTheUs category="JavaScript" showCard={showCard} />

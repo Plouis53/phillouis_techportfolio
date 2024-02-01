@@ -10,14 +10,14 @@ import Github from "../assets/Github.svg";
 
 const Hero = () => {
   return (
-    <div className="flex justify-between max-w-[100%] mt-[150px] mx-[70px]">
-      <div className="flex flex-col">
-        <h1 className="font-[Poppins] text-white text-[70px] font-semibold leading-[1.2]">
+    <div className="flex flex-col md:flex-row justify-between max-w-[100%] mt-[100px] mb-[75px] md:mb-[150px] mx-[30px] md:mx-[70px]">
+      <div className="flex flex-col text-center md:text-start">
+        <h1 className="font-[Poppins] text-white text-[50px] md:text-[70px] font-semibold leading-[1.2]">
           Hello 👋,
           <br />
           My name is Phillippe
           <br />{" "}
-          <span className="font-[Poppins] text-[#f5dfa1] text-[70px] font-semibold">
+          <span className="font-[Poppins] text-[#f5dfa1] text-[50px] lg:text-[70px] font-semibold">
             <Typewriter
               options={{
                 autoStart: true,
@@ -32,7 +32,7 @@ const Hero = () => {
             />
           </span>
         </h1>
-        <p className="font-[Poppins] text-white text-[20px] max-w-[600px] mt-[12px]">
+        <p className="font-[Poppins] text-white text-center lg:text-start md:max-w-[600px] text-[15px] md:text-[20px] mt-[12px]">
           I am a passionate web and app designer with a knack for crafting
           visually captivating and user-friendly digital experiences. I bring a
           well-rounded skill set to every project. On the front-end, I
@@ -44,19 +44,19 @@ const Hero = () => {
           Google Cloud for scalable solutions. Let us collaborate to bring your
           digital ideas to life!
         </p>
-        <div className="flex mt-[20px] max-w-[600px] justify-center">
-          <img src={HTML} className="w-[90px] h-[90px]"></img>
-          <img src={CSS} className="w-[90px] h-[90px]"></img>
-          <img src={Tailwind} className="w-[90px] h-[90px]"></img>
-          <img src={JS} className="w-[90px] h-[90px]"></img>
-          <img src={React} className="w-[90px] h-[90px]"></img>
-          <img src={NODE} className="w-[90px] h-[90px]"></img>
-          <img src={Github} className="w-[90px] h-[90px]"></img>
+        <div className="flex justify-center md:justify-start mt-[20px] w-full ml-[-10px] md:jusify-center">
+          <img src={HTML} className="w-[70px] md:w-[90px]"></img>
+          <img src={CSS} className="w-[70px] md:w-[90px]"></img>
+          <img src={Tailwind} className="w-[70px] md:w-[90px]"></img>
+          <img src={JS} className="w-[70px] md:w-[90px]"></img>
+          <img src={React} className="w-[70px] md:w-[90px]"></img>
+          <img src={NODE} className="w-[70px] md:w-[90px]"></img>
+          <img src={Github} className="w-[70px] md:w-[90px]"></img>
         </div>
       </div>
-      <div className=" bg-white h-[400px] bg-opacity-50 w-[400px] mt-[100px] rounded-t-[200px] rounded-b-[10px] position: relative">
+      <div className="hidden md:flex bg-white h-[200px] md:h-[400px] bg-opacity-50 w-[250px] md:w-[400px] m-auto mt-[200px] md:mt-[100px] rounded-t-[200px] rounded-b-[10px] position: relative">
         <img
-          className="h-[550px] w-[500px] rounded-[10px] position: absolute bottom-0"
+          className=" h-[350px] w-[250px] md:h-[550px] md:w-[500px] rounded-[10px] position: absolute bottom-0"
           src={Portrait}
         ></img>
       </div>
