@@ -1,5 +1,6 @@
 import React from "react";
 import Image1 from "../images/Image1.png";
+// import Bounce from "react-reveal/Bounce";
 // import Image2 from "../images/Image2.png";
 
 const About = (openModal) => {
@@ -12,6 +13,7 @@ const About = (openModal) => {
         <div className="flex flex-col gap-[20px] justify-center w-full mb:max-w-[50%] h-[fit] md:h-[750px] bg-[#363636] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-[20px] rounded-xl">
           <div className="relative border-s border-gray-200 dark:border-[#f5dfa1]">
             <div className="relative border-s border-gray-200 dark:border-[#f5dfa1]">
+            {/* <Bounce> */}
               <div className="px-[15px]">
                 <h1 className="font-[Poppins] mb-[20px] text-[20px] xs:text-[30px] md:text-[30px] pb-[5px] font-semibold text-white border-b-[2px] border-white border-opacity-50">
                   Education
@@ -78,6 +80,7 @@ const About = (openModal) => {
                 IT Project Manager | Remote
               </p>
             </div>
+            {/* </Bounce> */}
           </div>
         </div>
         <div className="flex mb:flex-col gap-[20px] align-center w-full md:max-w-[50%] h-[750px] rounded-xl">

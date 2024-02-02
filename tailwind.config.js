@@ -27,8 +27,7 @@ export default {
     backgroundImage: {
       LinkedIn: "url('../src/assets/LinkedIn.svg')",
       LinkedIn2: "url('../src/assets/LinkedIn2.svg')",
-      Github2: "url('../src/assets/Github2.svg')",
-      Instagram: "url('../src/assets/Instagram.svg')",
+      Github: "url('../src/assets/Github.svg')",
       Close: "url('../src/assets/Close.svg')",
       Filter: "url('../src/assets/Filter.svg')",
     },
