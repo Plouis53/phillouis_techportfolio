@@ -10,14 +10,14 @@ import Github from "../assets/Github.svg";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-between max-w-[100%] mt-[100px] mb-[75px] md:mb-[150px] mx-[30px] md:mx-[70px]">
-      <div className="flex flex-col text-center md:text-start">
-        <h1 className="font-[Poppins] text-white text-[50px] md:text-[70px] font-semibold leading-[1.2]">
+    <div className="flex flex-col md:flex-row md:justify-between max-w-[100%] mt-[100px] mb-[75px] md:mb-[150px] mx-[30px] md:mx-[70px]">
+      <div className="flex flex-col text-center md:w-[850px] md:text-start">
+        <h1 className="font-[Poppins] text-white text-[45px] xs:text-[50px] md:text-[70px] font-semibold leading-[1.2]">
           Hello 👋,
           <br />
           My name is Phillippe
           <br />{" "}
-          <span className="font-[Poppins] text-[#f5dfa1] text-[50px] lg:text-[70px] font-semibold">
+          <span className="font-[Poppins] text-[#f5dfa1] text-[45px] xs:text-[50px] lg:text-[70px] font-semibold">
             <Typewriter
               options={{
                 autoStart: true,
@@ -45,18 +45,21 @@ const Hero = () => {
           digital ideas to life!
         </p>
         <div className="flex justify-center md:justify-start mt-[20px] w-full ml-[-10px] md:jusify-center">
-          <img src={HTML} className="w-[70px] md:w-[90px]"></img>
-          <img src={CSS} className="w-[70px] md:w-[90px]"></img>
-          <img src={Tailwind} className="w-[70px] md:w-[90px]"></img>
-          <img src={JS} className="w-[70px] md:w-[90px]"></img>
-          <img src={React} className="w-[70px] md:w-[90px]"></img>
-          <img src={NODE} className="w-[70px] md:w-[90px]"></img>
-          <img src={Github} className="w-[70px] md:w-[90px]"></img>
+          <img src={HTML} className="w-[45px] xs:w-[50px] md:w-[90px]"></img>
+          <img src={CSS} className="w-[45px] xs:w-[50px] md:w-[90px]"></img>
+          <img
+            src={Tailwind}
+            className="w-[45px] xs:w-[50px] md:w-[90px]"
+          ></img>
+          <img src={JS} className="w-[45px] xs:w-[50px] md:w-[90px]"></img>
+          <img src={React} className="w-[45px] xs:w-[50px] md:w-[90px]"></img>
+          <img src={NODE} className="w-[45px] xs:w-[50px] md:w-[90px]"></img>
+          <img src={Github} className="w-[45px] xs:w-[50px] md:w-[90px]"></img>
         </div>
       </div>
-      <div className="hidden md:flex bg-white h-[200px] md:h-[400px] bg-opacity-50 w-[250px] md:w-[400px] m-auto mt-[200px] md:mt-[100px] rounded-t-[200px] rounded-b-[10px] position: relative">
+      <div className="hidden md:flex bg-white h-[350px] bg-opacity-50 w-[350px] m-auto mt-[200px] md:mt-[100px] rounded-t-[200px] rounded-b-[10px] position: relative">
         <img
-          className=" h-[350px] w-[250px] md:h-[550px] md:w-[500px] rounded-[10px] position: absolute bottom-0"
+          className=" h-[500px] w-[350px] rounded-[10px] position: absolute bottom-0"
           src={Portrait}
         ></img>
       </div>

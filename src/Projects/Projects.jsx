@@ -14,12 +14,15 @@ const Projects = () => {
     setShowCard(category);
   };
   return (
-    <div className="pt-[100px] pb-[100px] bg-[#363636] px-[30px] md:px-[70px]">
-      <div className="flex justify-between border-b-[2px] border-white border-opacity-20">
-        <h1 className="pb-[10px] font-[Poppins] text-[40px] mb:text-[50px] text-white font-semibold">
+    <div
+      id="projects"
+      className="pt-[100px] pb-[100px] bg-[#363636] px-[30px] md:px-[70px]"
+    >
+      <div className="flex gap-[20px] border-b-[2px] border-white border-opacity-20">
+        <h1 className="pb-[10px] font-[Poppins] text-[30px] md:text-[50px] text-white font-semibold">
           My Projects
         </h1>
-        <ProjectsFilter />
+        <ProjectsFilter handleProject={handleProject} />
       </div>
       <div className="hidden md:flex gap-[50px] mt-[50px] justify-center">
         <button
@@ -48,7 +51,7 @@ const Projects = () => {
         </button>
       </div>
       {/* adjust accordingly */}
-      <div className="mt-[100px] flex flex-col items-center md:flex-row justify-center gap-[50px] mb:gap-[20px]">
+      <div className="mt-[100px] flex flex-col items-center md:justify-center md:flex-row gap-[100px] md:gap-[20px]">
         <NewsExplorer category="React" showCard={showCard} />
         <WhatToWear category="React" showCard={showCard} />
         <AroundTheUs category="JavaScript" showCard={showCard} />

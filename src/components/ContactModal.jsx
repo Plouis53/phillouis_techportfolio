@@ -27,20 +27,20 @@ const ContactModal = ({ closeModal }) => {
   };
   return (
     <div className="position: fixed flex flex-col top-0 bottom-0 right-0 left-0 z-10 bg-black bg-opacity-[70%]">
-      <div className="position: relative bg-white m-auto p-9 rounded-xl box-border">
+      <div className="w-fit position: relative bg-white m-auto p-9 rounded-xl box-border">
         <button
           onClick={closeModal}
           className="text-black text-[20px] font-semibold posiiton: absolute w-[30px] h-[30px] bg-no-repeat top-3 right-3"
         >
           X
         </button>
-        <div className="w-[400px] mt-[20px]">
+        <div className="w-[300px] mt-[20px]">
           <form
             ref={form}
             onSubmit={sendEmail}
             className="flex flex-col align-middle gap-[10px]"
           >
-            <h1 className="font-[Poppins] text-black text-[50px] font-semibold">
+            <h1 className="font-[Poppins] text-black text-[30px] font-semibold md:text-[50px]">
               Contact me
             </h1>
             <label className="font-[Poppins] text-black text-[16px] font-semibold">
@@ -68,7 +68,7 @@ const ContactModal = ({ closeModal }) => {
               Your message!
             </label>
             <textarea
-              className="border-[1px] border-black bg-white p-[7px] rounded-[10px] text-black h-[100px  ]"
+              className="border-[1px] border-black bg-white p-[7px] rounded-[10px] text-black h-[100px]"
               placeholder="Type your message"
               name="message"
               minLength="4"

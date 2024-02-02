@@ -1,11 +1,11 @@
 import React from "react";
 
-const NavDropDown = () => {
+const NavDropDown = (openModal) => {
   return (
     <div className="dropdown dropdown-bottom md:hidden">
       <button
         tabIndex={0}
-        className="btn m-1 w-[100px] bg-white text-black font-[Poppins] font-semibold"
+        className="btn m-1 w-[100px] bg-white text-black font-[Poppins] font-semibold hover:bg-white hover:opacity-70 ease-in-out duration-[.5s]"
       >
         Menu
       </button>
@@ -20,7 +20,9 @@ const NavDropDown = () => {
           <a className="font-[Poppins] text-black">About</a>
         </li>
         <li>
-          <a className="font-[Poppins] text-black">Contact</a>
+          <a onClick={openModal} className="font-[Poppins] text-black">
+            Contact
+          </a>
         </li>
       </ul>
     </div>

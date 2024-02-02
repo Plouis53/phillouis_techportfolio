@@ -8,23 +8,26 @@ const Nav = ({ openModal }) => {
       <h1 className="sm:block font-[Poppins] text-[30px] font-semibold text-white">
         Logo
       </h1>
-      <NavDropDown className="block md:hidden" />
+      <NavDropDown openModal={openModal} className="block md:hidden" />
       <ul className="hidden lg:flex gap-[50px]">
-        <li className="text-white font-[Poppins] text-[18px]  self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white ">
-          About me
-        </li>
+        <a
+          href="#about"
+          className="self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white"
+        >
+          <li className="text-white font-[Poppins] text-[18px]">About me</li>
+        </a>
         <li
           onClick={openModal}
           className="text-white font-[Poppins] text-[18px] self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white"
         >
           Contact
         </li>
-        <li className="text-white font-[Poppins] text-[18px] self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white">
-          Experience
-        </li>
-        <li className="text-white font-[Poppins] text-[18px] self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white">
-          Projects
-        </li>
+        <a
+          href="#projects"
+          className="self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white"
+        >
+          <li className="text-white font-[Poppins] text-[18px]">Projects</li>
+        </a>
         <span className="p-2px border-white border-[1px] rounded-[50%] flex hover:scale-110 ease-out duration-[.5s]">
           <button className="bg-LinkedIn h-[48px] w-[48px]"></button>
         </span>

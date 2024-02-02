@@ -17,7 +17,7 @@ const NewsExplorer = ({ showCard, category }) => {
       ></img>
       <div className="flex flex-col gap-[20px] h-[530px] justify-between w-full bg-white mt-[-50px] p-[10px] rounded-lg">
         <div className="flex gap-[10px] w-full border-b-[2px] border-black border-opacity-50">
-          <h1 className="font-[Poppins] font-semibold text-black text-[25px]">
+          <h1 className="font-[Poppins] font-semibold text-black text-[20px] md:text-[25px]">
             News Explorer
           </h1>
           <img src={HTML} className="h-[35px] w-[35px] self-center"></img>
@@ -25,7 +25,7 @@ const NewsExplorer = ({ showCard, category }) => {
           <img src={JS} className="h-[35px] w-[35px] self-center"></img>
           <img src={React} className="h-[35px] w-[35px] self-center"></img>
         </div>
-        <p className="font-[Poppins] text-black text-[15px]">
+        <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
           News Explorer is an exciting project—a news app developed using React
           and Django, thoughtfully integrated with APIs for article curation.
           The project boasts robust security measures, including JWT and bcrypt

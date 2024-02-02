@@ -8,6 +8,9 @@ export default {
         flip: "flip 6s infinite steps(2, end)",
         rotate: "rotate 3s linear infinite both",
       },
+      screens: {
+        xs: "400px",
+      },
       keyframes: {
         flip: {
           to: {
