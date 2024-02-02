@@ -5,7 +5,7 @@ import React from "react";
 const Nav = ({ openModal }) => {
   return (
     <div className="bg-[#363636] w-[100%] pt-[25px] pb-[25px] px-[30px] lg:px-[70px] flex justify-between">
-      <div className="flex gap-[50px]">
+      <div className="flex gap-[20px]">
         <a
           href="https://www.linkedin.com/in/phillippe-pmpisintech/"
           className="h-fit p-2px border-white border-[1px] rounded-[50%] flex hover:scale-110 ease-out duration-[.5s]"

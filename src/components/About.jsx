@@ -5,7 +5,10 @@ import Image1 from "../images/Image1.png";
 
 const About = (openModal) => {
   return (
-    <div id="about" className="px-[30px] md:px-[70px] py-[100px] w-full">
+    <div
+      id="about"
+      className="px-[30px] mb-[100px] md:px-[70px] py-[100px] w-full"
+    >
       <h1 className="pb-[10px] font-[Poppins] text-[40px] md:text-[50px] text-white font-semibold border-b-[2px] border-white border-opacity-20">
         About me
       </h1>
@@ -84,7 +87,7 @@ const About = (openModal) => {
           </div>
         </div>
         <div className="flex mb:flex-col gap-[20px] align-center w-full md:max-w-[50%] h-[750px] rounded-xl">
-          <div className="flex flex-col justify-between h-[750px] rounded-xl">
+        <div className="flex flex-col justify-between h-fit rounded-xl bg-[#363636] p-[20px] gap-[20px]">
             <div className="flex m-auto mb-0 mt-0 gap-[30px] border-[1px] border-white rounded-[25%] p-[5px] w-[175px] md:w-[250px]">
               <img
                 src={Image1}

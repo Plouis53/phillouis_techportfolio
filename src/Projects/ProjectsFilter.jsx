@@ -5,11 +5,13 @@ const ProjectsFilter = ({ handleProject }) => {
     <div className="dropdown dropdown-bottom flex self-center md:hidden">
       <button
         tabIndex={0}
-        className="mb-[10px] bg-Filter h-[24px] w-[24px] bg-[#2b2b2b] bg-no-repeat rounded-lg"
-      ></button>
+        className="mb-[10px] h-fit w-fit px-[20px] py-[5px] bg-white rounded-lg font-[Poppins] font-semibold text-black"
+      >
+        Sort
+      </button>
       <ul
         tabIndex={0}
-        className="dropdown-content z-[1] menu p-2 shadow bg-white rounded-box m-1 w-fit"
+        className="dropdown-content right-[0px] z-[1] menu p-2 shadow bg-white rounded-box m-1 w-fit"
       >
         <li className="w-[100px]">
           <a
