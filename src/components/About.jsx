@@ -13,7 +13,7 @@ const About = (openModal) => {
         <div className="flex flex-col gap-[20px] justify-center w-full mb:max-w-[50%] h-[fit] md:h-[750px] bg-[#363636] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-[20px] rounded-xl">
           <div className="relative border-s border-gray-200 dark:border-[#f5dfa1]">
             <div className="relative border-s border-gray-200 dark:border-[#f5dfa1]">
-            {/* <Bounce> */}
+              {/* <Bounce> */}
               <div className="px-[15px]">
                 <h1 className="font-[Poppins] mb-[20px] text-[20px] xs:text-[30px] md:text-[30px] pb-[5px] font-semibold text-white border-b-[2px] border-white border-opacity-50">
                   Education
@@ -88,7 +88,7 @@ const About = (openModal) => {
             <div className="flex m-auto mb-0 mt-0 gap-[30px] border-[1px] border-white rounded-[25%] p-[5px] w-[175px] md:w-[250px]">
               <img
                 src={Image1}
-                className="h-fit w-[175px] md:w-[250px] rounded-[25%] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
+                className="h-[250px] w-[175px] md:h-fit md:w-[250px] rounded-[25%] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
               ></img>
             </div>
             <p className="font-[Poppins] text-[14px] xs:text-[15px] text-white text-center">

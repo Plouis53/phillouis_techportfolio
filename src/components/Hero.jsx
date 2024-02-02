@@ -44,11 +44,11 @@ const Hero = () => {
           digital ideas to life!
         </p>
         <div className="flex justify-center lg:justify-start mt-[20px] w-full lg:ml-[-10px] lg:jusify-center">
-          <img src={HTML} className="w-[45px] xs:w-[50px] lg::w-[90px]"></img>
-          <img src={CSS} className="w-[45px] xs:w-[50px] lg::w-[90px]"></img>
+          <img src={HTML} className="w-[45px] xs:w-[50px] lg:w-[90px]"></img>
+          <img src={CSS} className="w-[45px] xs:w-[50px] lg:w-[90px]"></img>
           <img
             src={Tailwind}
-            className="w-[45px] xs:w-[50px] lg::w-[90px]"
+            className="w-[45px] xs:w-[50px] lg:w-[90px]"
           ></img>
           <img src={JS} className="w-[45px] xs:w-[50px] lg:w-[90px]"></img>
           <img src={React} className="w-[45px] xs:w-[50px] lg:w-[90px]"></img>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const NavDropDown = ({ openModal }) => {
   return (
@@ -13,16 +14,25 @@ const NavDropDown = ({ openModal }) => {
         tabIndex={0}
         className="dropdown-content z-[1] menu p-2 shadow bg-white rounded-box m-1 w-[100px]"
       >
-        <li>
-          <a href="#projects" className="font-[Poppins] text-black">
-            Projects
-          </a>
-        </li>
-        <li>
-          <a href="#about" className="font-[Poppins] text-black">
-            About
-          </a>
-        </li>
+        <Link
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={100}
+          className="font-[Poppins] text-black"
+        >
+          Projects
+        </Link>
+        <Link
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={100}
+          duration={500}
+          className="font-[Poppins] text-black"
+        >
+          About
+        </Link>
         <li>
           <a onClick={openModal} className="font-[Poppins] text-black">
             Contact
