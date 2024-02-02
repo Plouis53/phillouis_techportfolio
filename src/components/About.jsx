@@ -87,11 +87,11 @@ const About = (openModal) => {
           </div>
         </div>
         <div className="flex mb:flex-col gap-[20px] align-center w-full md:max-w-[50%] h-[750px] rounded-xl">
-        <div className="flex flex-col justify-between h-fit rounded-xl bg-[#363636] p-[20px] gap-[20px]">
+          <div className="flex flex-col justify-between h-fit md:h-[750px] rounded-xl bg-[#363636] p-[20px] gap-[20px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
             <div className="flex m-auto mb-0 mt-0 gap-[30px] border-[1px] border-white rounded-[25%] p-[5px] w-[175px] md:w-[250px]">
               <img
                 src={Image1}
-                className="h-[275px] w-[175px] md:h-fit md:w-[250px] rounded-[25%] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
+                className="h-[250px] w-[175px] md:h-fit md:w-[250px] rounded-[25%] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
               ></img>
             </div>
             <p className="font-[Poppins] text-[14px] xs:text-[15px] text-white text-center">

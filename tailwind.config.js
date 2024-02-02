@@ -30,7 +30,8 @@ export default {
       Github: "url('../src/assets/Github.svg')",
       Close: "url('../src/assets/Close.svg')",
       Filter: "url('../src/assets/Filter.svg')",
+      Menu: "url('../src/assets/Menu.svg')",
     },
   },
-  plugins: [],
+  plugins: [require("daisyui"), require("tailwindcss-animated")],
 };
