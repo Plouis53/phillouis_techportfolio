@@ -15,7 +15,7 @@ const WhatToWear = ({ showCard, category }) => {
         src={WTWR1}
         className="rounded-lg top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
       ></img>
-      <div className="flex flex-col gap-[20px] justify-between h-[550px] bg-white w-full mt-[-50px] p-[10px] rounded-lg">
+      <div className="flex flex-col gap-[20px] justify-between h-[570px] bg-white w-full mt-[-50px] p-[10px] rounded-lg">
         <div className="flex gap-[10px] w-full border-b-[2px] border-black border-opacity-50">
           <h1 className="font-[Poppins] font-semibold text-ellipsis overflow-hidden whitespace-nowrap text-black text-[20px] md:text-[25px]">
             What To Wear
@@ -49,12 +49,12 @@ const WhatToWear = ({ showCard, category }) => {
               Frontend Code
             </button>{" "}
           </a>
-          <a href="https://github.com/Plouis53/se_project_express.git">
-            <button className="px-[20px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
-              Backend Code
-            </button>{" "}
-          </a>
         </div>
+        <a href="https://github.com/Plouis53/se_project_express.git">
+          <button className="px-[20px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
+            Backend Code
+          </button>{" "}
+        </a>
       </div>
     </div>
   );
