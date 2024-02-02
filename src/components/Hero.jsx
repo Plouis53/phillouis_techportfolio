@@ -16,7 +16,7 @@ const Hero = () => {
           <br />
           My name is Phillippe
           <br />{" "}
-          <span className="font-[Poppins] text-[#f5dfa1] text-[45px] xs:text-[50px] lg:text-[70px] font-semibold">
+          <span className="font-[Poppins] text-[#f5dfa1] text-[20px] xs:text-[30px] lg:text-[70px] font-semibold">
             <Typewriter
               options={{
                 autoStart: true,
