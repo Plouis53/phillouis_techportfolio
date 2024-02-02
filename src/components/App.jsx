@@ -4,7 +4,7 @@ import Projects from "../Projects/Projects.jsx";
 import About from "./About.jsx";
 import ContactModal from "./ContactModal.jsx";
 import Footer from "./Footer.jsx";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import React from "react";
 import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min.js";
 // import { Link } from "react-router-dom/cjs/react-router-dom.min.js";
@@ -19,6 +19,19 @@ function App() {
   const closeModal = () => {
     setModal();
   };
+
+  useEffect(() => {
+    const closeByEscape = (e) => {
+      if (e.key === "Escape") {
+        closeModal();
+      }
+    };
+
+    document.addEventListener("keydown", closeByEscape);
+
+    return () => document.removeEventListener("keydown", closeByEscape);
+  }, []);
+
   return (
     <BrowserRouter>
       <div className="bg-[#2b2b2b] max-w-[2000px] m-auto">
