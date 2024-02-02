@@ -6,13 +6,12 @@ import Tailwind from "../assets/Tailwind.svg";
 import JS from "../assets/JS.svg";
 import React from "../assets/React.svg";
 import NODE from "../assets/NODE.svg";
-import Github from "../assets/Github.svg";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col md:flex-row md:justify-between max-w-[100%] mt-[100px] mb-[75px] md:mb-[150px] mx-[30px] md:mx-[70px]">
-      <div className="flex flex-col text-center md:w-[850px] md:text-start">
-        <h1 className="font-[Poppins] text-white text-[45px] xs:text-[50px] md:text-[70px] font-semibold leading-[1.2]">
+    <div className="flex flex-col lg:flex-row lg:justify-between max-w-[100%] mt-[100px] mb-[75px] lg:mb-[150px] mx-[30px] lg:mx-[70px]">
+      <div className="flex flex-col text-center lg:w-[850px] lg:text-start">
+        <h1 className="font-[Poppins] text-white text-[45px] xs:text-[50px] lg:text-[70px] font-semibold leading-[1.2]">
           Hello 👋,
           <br />
           My name is Phillippe
@@ -32,7 +31,7 @@ const Hero = () => {
             />
           </span>
         </h1>
-        <p className="font-[Poppins] text-white text-center lg:text-start md:max-w-[600px] text-[15px] md:text-[20px] mt-[12px]">
+        <p className="font-[Poppins] text-white text-center lg:text-start lg:max-w-[600px] text-[15px] lg:text-[20px] mt-[12px]">
           I am a passionate web and app designer with a knack for crafting
           visually captivating and user-friendly digital experiences. I bring a
           well-rounded skill set to every project. On the front-end, I
@@ -44,20 +43,19 @@ const Hero = () => {
           Google Cloud for scalable solutions. Let us collaborate to bring your
           digital ideas to life!
         </p>
-        <div className="flex justify-center md:justify-start mt-[20px] w-full ml-[-10px] md:jusify-center">
-          <img src={HTML} className="w-[45px] xs:w-[50px] md:w-[90px]"></img>
-          <img src={CSS} className="w-[45px] xs:w-[50px] md:w-[90px]"></img>
+        <div className="flex justify-center lg:justify-start mt-[20px] w-full lg:ml-[-10px] lg:jusify-center">
+          <img src={HTML} className="w-[45px] xs:w-[50px] lg::w-[90px]"></img>
+          <img src={CSS} className="w-[45px] xs:w-[50px] lg::w-[90px]"></img>
           <img
             src={Tailwind}
-            className="w-[45px] xs:w-[50px] md:w-[90px]"
+            className="w-[45px] xs:w-[50px] lg::w-[90px]"
           ></img>
-          <img src={JS} className="w-[45px] xs:w-[50px] md:w-[90px]"></img>
-          <img src={React} className="w-[45px] xs:w-[50px] md:w-[90px]"></img>
-          <img src={NODE} className="w-[45px] xs:w-[50px] md:w-[90px]"></img>
-          <img src={Github} className="w-[45px] xs:w-[50px] md:w-[90px]"></img>
+          <img src={JS} className="w-[45px] xs:w-[50px] lg:w-[90px]"></img>
+          <img src={React} className="w-[45px] xs:w-[50px] lg:w-[90px]"></img>
+          <img src={NODE} className="w-[45px] xs:w-[50px] lg:w-[90px]"></img>
         </div>
       </div>
-      <div className="hidden md:flex bg-white h-[350px] bg-opacity-50 w-[350px] m-auto mt-[200px] md:mt-[100px] rounded-t-[200px] rounded-b-[10px] position: relative">
+      <div className="hidden lg:flex bg-white h-[350px] bg-opacity-50 w-[350px] m-auto mt-[200px] lg:mt-[100px] rounded-t-[200px] rounded-b-[10px] position: relative">
         <img
           className=" h-[500px] w-[350px] rounded-[10px] position: absolute bottom-0"
           src={Portrait}

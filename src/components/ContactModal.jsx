@@ -34,7 +34,7 @@ const ContactModal = ({ closeModal }) => {
         >
           X
         </button>
-        <div className="w-[300px] mt-[20px]">
+        <div className="w-[300px] md:w-[400px] mt-[20px]">
           <form
             ref={form}
             onSubmit={sendEmail}

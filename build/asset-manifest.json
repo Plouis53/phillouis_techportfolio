@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.31c1721c.css",
-    "main.js": "/static/js/main.69723701.js",
+    "main.css": "/static/css/main.7cb19ed8.css",
+    "main.js": "/static/js/main.ea9ed0b8.js",
     "static/js/787.072e5c51.chunk.js": "/static/js/787.072e5c51.chunk.js",
     "static/media/Image1.png": "/static/media/Image1.bffdba64b8bc319b08aa.png",
     "static/media/Us.png": "/static/media/Us.b6ccc7f9a3bb4c6e4fc2.png",
     "static/media/NewsEx1.png": "/static/media/NewsEx1.0d2cd14e1db21e0b7371.png",
+    "static/media/Portrait.png": "/static/media/Portrait.11a8ebcacc467d585c93.png",
     "static/media/WTWR1.png": "/static/media/WTWR1.76f09c179f7a587f7553.png",
     "static/media/Portfolio.png": "/static/media/Portfolio.ef487f6832ed91ddedc4.png",
     "static/media/Coffeeshop1.png": "/static/media/Coffeeshop1.b2fd45f23603d6ecd1c6.png",
     "static/media/Library.png": "/static/media/Library.f0892e2d427dd5f33a68.png",
-    "static/media/Portrait.png": "/static/media/Portrait.8b67f297e6a875aee32f.png",
     "static/media/React.svg": "/static/media/React.fc6e229a139c947491ddc12f82c286bd.svg",
     "static/media/NODE.svg": "/static/media/NODE.3011066dec1a7ffa648085f5cf5865bc.svg",
-    "static/media/Github.svg": "/static/media/Github.87f8709f6f3c767a0a87fd1e444cb822.svg",
     "static/media/JS.svg": "/static/media/JS.dc76eb1b52d5a1be9e1b9a392fafca4e.svg",
     "static/media/Tailwind.svg": "/static/media/Tailwind.8e162290af4cdb6a9d2b139227dca077.svg",
     "static/media/CSS.svg": "/static/media/CSS.64a93fe5f4305923cc020003af8e7026.svg",
     "static/media/HTML.svg": "/static/media/HTML.5e883e31fff708732d9cebb5d3797773.svg",
+    "static/media/Github.svg": "/static/media/Github.adb057e9b81365542cdfd2327c007aa2.svg",
     "static/media/LinkedIn.svg": "/static/media/LinkedIn.d7621916979fd9962556.svg",
     "index.html": "/index.html",
-    "main.31c1721c.css.map": "/static/css/main.31c1721c.css.map",
-    "main.69723701.js.map": "/static/js/main.69723701.js.map",
+    "static/media/Filter.svg": "/static/media/Filter.390a2eb78a897d6e9d81.svg",
+    "main.7cb19ed8.css.map": "/static/css/main.7cb19ed8.css.map",
+    "main.ea9ed0b8.js.map": "/static/js/main.ea9ed0b8.js.map",
     "787.072e5c51.chunk.js.map": "/static/js/787.072e5c51.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31c1721c.css",
-    "static/js/main.69723701.js"
+    "static/css/main.7cb19ed8.css",
+    "static/js/main.ea9ed0b8.js"
   ]
 }
