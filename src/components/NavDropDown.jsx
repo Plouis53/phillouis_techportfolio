@@ -6,13 +6,11 @@ const NavDropDown = ({ openModal }) => {
     <div className="dropdown dropdown-bottom md:hidden">
       <button
         tabIndex={0}
-        className="btn m-1 w-[100px] bg-white text-black font-[Poppins] font-semibold hover:bg-white hover:opacity-70 ease-in-out duration-[.5s]"
-      >
-        Menu
-      </button>
+        className="bg-Menu w-[30px] h-[30px] mt-[10px]"
+      ></button>
       <ul
         tabIndex={0}
-        className="dropdown-content z-[1] menu p-2 shadow bg-white rounded-box m-1 w-[100px]"
+        className="dropdown-content right-0 z-[1] menu p-2 shadow bg-white rounded-box m-1 w-[100px]"
       >
         <Link
           to="projects"

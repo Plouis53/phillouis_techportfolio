@@ -3,12 +3,7 @@ import React from "react";
 const ProjectsFilter = ({ handleProject }) => {
   return (
     <div className="dropdown dropdown-bottom flex self-center md:hidden">
-      <button
-        tabIndex={0}
-        className="mb-[10px] h-fit w-fit px-[20px] py-[5px] bg-white rounded-lg font-[Poppins] font-semibold text-black"
-      >
-        Sort
-      </button>
+      <button tabIndex={0} className="bg-Filter w-[30px] h-[30px]"></button>
       <ul
         tabIndex={0}
         className="dropdown-content right-[0px] z-[1] menu p-2 shadow bg-white rounded-box m-1 w-fit"

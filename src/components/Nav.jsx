@@ -4,7 +4,7 @@ import React from "react";
 
 const Nav = ({ openModal }) => {
   return (
-    <div className="bg-[#363636] w-[100%] pt-[25px] pb-[25px] px-[30px] lg:px-[70px] flex justify-between">
+    <div className="bg-[#363636] w-[100%] pt-[25px] pb-[25px] px-[30px] lg:px-[70px] flex justify-between items-center">
       <div className="flex gap-[20px]">
         <a
           href="https://www.linkedin.com/in/phillippe-pmpisintech/"
