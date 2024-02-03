@@ -13,18 +13,30 @@ const Projects = () => {
   const [showCard, setShowCard] = useState("all");
   const handleProject = (category) => {
     setShowCard(category);
+    handleOpenDropDown();
   };
+
+  const [dropDown, setDropDown] = useState(true);
+
+  const handleOpenDropDown = () => {
+    setDropDown(!dropDown);
+  };
+
   return (
     <div
       id="projects"
-      className="pt-[100px] pb-[100px] bg-[#363636] px-[30px] md:px-[70px]"
+      className="pt-[50px] pb-[100px] bg-[#363636] px-[30px] md:px-[70px]"
     >
       <div className="flex justify-between gap-[20px] border-b-[2px] border-white border-opacity-20">
         <h1 className="pb-[10px] font-[Poppins] text-[30px] md:text-[50px] text-white font-semibold">
           My Projects
         </h1>
-        <ProjectsFilter handleProject={handleProject} />
+        <button
+          onClick={handleOpenDropDown}
+          className="bg-Filter w-[30px] h-[30px] self-center mb-[10px] lg:hidden"
+        ></button>
       </div>
+      {dropDown === false && <ProjectsFilter handleProject={handleProject} />}
       <div className="hidden md:flex gap-[50px] mt-[50px] justify-center">
         <button
           onClick={() => handleProject("all")}

@@ -1,43 +1,32 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-const NavDropDown = ({ openModal }) => {
+const NavDropDown = ({ handleOpenDropdown }) => {
   return (
-    <div className="dropdown dropdown-bottom md:hidden">
-      <button
-        tabIndex={0}
-        className="bg-Menu w-[30px] h-[30px] mt-[10px]"
-      ></button>
-      <ul
-        tabIndex={0}
-        className="dropdown-content right-0 z-[1] menu p-2 shadow bg-white rounded-box m-1 w-[100px]"
-      >
+    <>
+      <div className="flex flex-col bg-white w-[100%] position: absolute">
         <Link
           to="projects"
           spy={true}
           smooth={true}
           offset={100}
-          className="font-[Poppins] text-black"
+          className="border-black border-b-[1px] p-[10px] text-center"
+          onClick={handleOpenDropdown}
         >
-          Projects
+          <button className="text-black font-[Poppins]">Projects</button>
         </Link>
         <Link
           to="about"
           spy={true}
           smooth={true}
           offset={100}
-          duration={500}
-          className="font-[Poppins] text-black"
+          className="border-black border-b-[1px] p-[10px] text-center"
+          onClick={handleOpenDropdown}
         >
-          About
+          <button className="text-black font-[Poppins]">About</button>
         </Link>
-        <li>
-          <a onClick={openModal} className="font-[Poppins] text-black">
-            Contact
-          </a>
-        </li>
-      </ul>
-    </div>
+      </div>
+    </>
   );
 };
 export default NavDropDown;

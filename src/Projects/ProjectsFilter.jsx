@@ -1,46 +1,32 @@
 import React from "react";
 
-const ProjectsFilter = ({ handleProject }) => {
+const ProjectsFilter = ({ handleProject, handleOpenDropDown }) => {
   return (
-    <div className="dropdown dropdown-bottom flex self-center md:hidden">
-      <button tabIndex={0} className="bg-Filter w-[30px] h-[30px]"></button>
-      <ul
-        tabIndex={0}
-        className="dropdown-content right-[0px] z-[1] menu p-2 shadow bg-white rounded-box m-1 w-fit"
+    <div className="flex flex-col bg-white w-[100%] position: absolute z-[2] mx-[-30px]">
+      <button
+        onClick={() => handleProject("all")}
+        className="text-black font-[Poppins] p-[10px] border-black border-b-[1px]"
       >
-        <li className="w-[100px]">
-          <a
-            className="font-[Poppins] text-black text-[15px]"
-            onClick={() => handleProject("all")}
-          >
-            Featured
-          </a>
-        </li>
-        <li>
-          <a
-            className="font-[Poppins] text-black"
-            onClick={() => handleProject("HTML/CSS")}
-          >
-            HTML/CSS
-          </a>
-        </li>
-        <li>
-          <a
-            className="font-[Poppins] text-black"
-            onClick={() => handleProject("JavaScript")}
-          >
-            JavaScript
-          </a>
-        </li>
-        <li>
-          <a
-            className="font-[Poppins] text-black"
-            onClick={() => handleProject("React")}
-          >
-            React
-          </a>
-        </li>
-      </ul>
+        Featured
+      </button>
+      <button
+        onClick={() => handleProject("HTML/CSS")}
+        className="text-black font-[Poppins] p-[10px] border-black border-b-[1px]"
+      >
+        HTML/CSS
+      </button>
+      <button
+        onClick={() => handleProject("JavaScript")}
+        className="text-black font-[Poppins] p-[10px] border-black border-b-[1px]"
+      >
+        JavaScript
+      </button>
+      <button
+        onClick={() => handleProject("React")}
+        className="text-black font-[Poppins] p-[10px] border-black border-b-[1px]"
+      >
+        React
+      </button>
     </div>
   );
 };

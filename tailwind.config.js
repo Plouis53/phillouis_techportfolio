@@ -31,6 +31,7 @@ export default {
       Close: "url('../src/assets/Close.svg')",
       Filter: "url('../src/assets/Filter.svg')",
       Menu: "url('../src/assets/Menu.svg')",
+      Mail: "url('../src/assets/Mail.svg')",
     },
   },
   plugins: [require("daisyui"), require("tailwindcss-animated")],

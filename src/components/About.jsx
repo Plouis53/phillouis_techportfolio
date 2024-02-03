@@ -7,7 +7,7 @@ const About = (openModal) => {
   return (
     <div
       id="about"
-      className="px-[30px] mb-[100px] md:px-[70px] py-[100px] w-full"
+      className="px-[30px] mb-[20px] lg:mb-[100px] md:px-[70px] py-[100px] w-full"
     >
       <h1 className="pb-[10px] font-[Poppins] text-[40px] md:text-[50px] text-white font-semibold border-b-[2px] border-white border-opacity-20">
         About me
@@ -116,7 +116,7 @@ const About = (openModal) => {
             <button
               onClick={openModal}
               href="#_"
-              className="relative inline-flex items-center justify-center px-[24px] py-[12px] w-[200px] m-auto mt-0 mb-0 overflow-hidden font-medium bg-[#f5dfa1] text-black transition duration-300 ease-out rounded-full shadow-md group"
+              class="hidden lg:inline-flex shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] relative lg:items-center justify-center px-[24px] py-[12px] w-[200px] m-auto mt-0 mb-0 overflow-hidden font-medium bg-[#f5dfa1] text-black transition duration-300 ease-out rounded-full group"
             >
               <span className="absolute inset-0 flex items-center justify-center w-full h-full text-black duration-300 -translate-x-full bg-[#f5dfa1] group-hover:translate-x-0 ease">
                 <svg

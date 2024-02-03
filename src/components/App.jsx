@@ -38,9 +38,15 @@ function App() {
         <Nav openModal={openModal} />
         <Hero />
         {modal === "create" && <ContactModal closeModal={closeModal} />}
-        <Projects />
+        <Projects openModal={openModal} />
         <About openModal={openModal} />
         <Footer openModal={openModal} />
+        <div className="flex justify-center items-center bg-[#f5dfa1] h-[60px] w-[60px] rounded-[100%] position: fixed bottom-[30px] right-[30px] lg:hidden">
+          <button
+            onClick={openModal}
+            className="bg-Mail h-[32px] w-[32px] rounded-[100%]"
+          ></button>
+        </div>
       </div>
     </BrowserRouter>
   );
