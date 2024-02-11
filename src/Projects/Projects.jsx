@@ -7,7 +7,6 @@ import MyPortfolio from "../Projects/Portfolio.jsx";
 import ProjectsFilter from "./ProjectsFilter.jsx";
 import { useState } from "react";
 import React from "react";
-// import Zoom from "react-reveal/Zoom";
 
 const Projects = () => {
   const [showCard, setShowCard] = useState("all");
@@ -66,14 +65,10 @@ const Projects = () => {
       {/* adjust accordingly */}
       <MyPortfolio category="React" showCard={showCard} />
       <div className="mt-[100px] flex flex-col md:justify-center md:flex-row md:gap-[20px]">
-        {/* <Zoom> */}
         <NewsExplorer category="React" showCard={showCard} />
-        {/* </Zoom> */}
         <WhatToWear category="React" showCard={showCard} />
         <AroundTheUs category="JavaScript" showCard={showCard} />
-        {/* <Zoom> */}
         <PracticumCoffeeShop category="HTML/CSS" showCard={showCard} />
-        {/* </Zoom> */}
         {/* <PracticumLibrary category="HTML/CSS" showCard={showCard} /> */}
       </div>
     </div>
