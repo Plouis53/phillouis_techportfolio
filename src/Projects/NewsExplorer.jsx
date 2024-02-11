@@ -26,13 +26,6 @@ const NewsExplorer = ({ showCard, category }) => {
           <img src={React} className="h-[35px] w-[35px] self-center"></img>
         </div>
         <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
-          {/* News Explorer is a React and Django-based news app integrated with
-          APIs for article curation. It prioritizes security with JWT and bcrypt
-          for authentication. My role involved API design, MongoDB integration,
-          and efficient search functionality using JavaScript, all while
-          harnessing the power of Google Cloud Platform (GCP). This project
-          demonstrates my expertise in complex app development and commitment to
-          secure, user-friendly solutions. */}
           News Explorer is an exciting project—a news app developed using React
           and Django, thoughtfully integrated with APIs for article curation.
           The project boasts robust security measures, including JWT and bcrypt
@@ -43,6 +36,9 @@ const NewsExplorer = ({ showCard, category }) => {
           JavaScript to craft an efficient search feature. This project
           showcases my ability to build complex applications and underscores my
           commitment to delivering secure and user-friendly solutions.
+          <span className="font-[Poppins] font-semibold text-[#fc6161] text-[14px] xs:text-[15px]">
+            {" "}
+          </span>
         </p>
         <div className="flex gap-[20px]">
           <a href="https://newsquest.mooo.com/">

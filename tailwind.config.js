@@ -34,5 +34,5 @@ export default {
       Mail: "url('../src/assets/Mail.svg')",
     },
   },
-  plugins: [require("daisyui"), require("tailwindcss-animated")],
+  plugins: [require("daisyui")],
 };
