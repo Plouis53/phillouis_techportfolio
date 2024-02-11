@@ -13,10 +13,6 @@ module.exports = {
 
   plugins: ["react"],
   rules: {
-    "react-refresh/only-export-components": [
-      "warn",
-      { allowConstantExport: true },
-    ],
     "react/prop-types": [0],
     "react/no-unescaped-entities": [0],
     "no-empty": [0], // ?

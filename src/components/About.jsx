@@ -113,10 +113,10 @@ const About = (openModal) => {
               and bring ideas to life. Feel free to reach out, and let's work
               together to create something amazing!
             </p>
-            <button
+            <a
               onClick={openModal}
               href="#_"
-              class="hidden lg:inline-flex shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] relative lg:items-center justify-center px-[24px] py-[12px] w-[200px] m-auto mt-0 mb-0 overflow-hidden font-medium bg-[#f5dfa1] text-black transition duration-300 ease-out rounded-full group"
+              className="hidden lg:inline-flex shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] relative lg:items-center justify-center px-[24px] py-[12px] w-[200px] m-auto mt-0 mb-0 overflow-hidden font-medium bg-[#f5dfa1] text-black transition duration-300 ease-out rounded-full group"
             >
               <span className="absolute inset-0 flex items-center justify-center w-full h-full text-black duration-300 -translate-x-full bg-[#f5dfa1] group-hover:translate-x-0 ease">
                 <svg
@@ -138,7 +138,7 @@ const About = (openModal) => {
                 Contact
               </span>
               <span className="relative invisible">Contact</span>
-            </button>
+            </a>
           </div>
         </div>
       </div>
