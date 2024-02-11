@@ -19,6 +19,13 @@ const Projects = () => {
 
   const handleOpenDropDown = () => {
     setDropDown(!dropDown);
+    handleButtonClick();
+  };
+
+  const [isRotated, setIsRotated] = useState(false);
+
+  const handleButtonClick = () => {
+    setIsRotated(!isRotated);
   };
 
   return (
@@ -31,8 +38,9 @@ const Projects = () => {
           My Projects
         </h1>
         <button
-          onClick={handleOpenDropDown}
-          className="bg-Filter w-[30px] h-[30px] self-center mb-[10px] lg:hidden"
+          className={`bg-Menu w-[30px] h-[30px] self-center mb-[10px] rotate lg:hidden ${
+            isRotated ? "active" : ""
+          }`}
         ></button>
       </div>
       {dropDown === false && <ProjectsFilter handleProject={handleProject} />}
@@ -62,6 +70,7 @@ const Projects = () => {
           React
         </button>
       </div>
+      <div className="mt-[100px] flex flex-col xl:justify-center xl:flex-row xl:gap-[20px]"></div>
       {/* adjust accordingly */}
       <MyPortfolio category="React" showCard={showCard} />
       <div className="mt-[100px] flex flex-col md:justify-center md:flex-row md:gap-[20px]">

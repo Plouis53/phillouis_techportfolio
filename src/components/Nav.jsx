@@ -19,7 +19,7 @@ const Nav = ({ openModal }) => {
 
   return (
     <>
-      <div className="bg-[#363636] w-[100%] pt-[25px] pb-[25px] px-[30px] lg:px-[70px] flex justify-between items-center">
+      <div className="bg-[#363636] w-[100%] pt-[25px] pb-[25px] px-[30px] xl:px-[70px] flex justify-between items-center">
         <div className="flex gap-[20px]">
           <a
             href="https://www.linkedin.com/in/dillon-arnold-352782275/"
@@ -36,11 +36,11 @@ const Nav = ({ openModal }) => {
         </div>
         <button
           onClick={handleOpenDropDown}
-          className={`bg-Menu w-[30px] h-[30px] mt-[10px] lg:hidden rotate ${
+          className={`bg-Menu w-[30px] h-[30px] mt-[10px] xl:hidden rotate ${
             isRotated ? "active" : ""
           }`}
         ></button>
-        <ul className="hidden lg:flex gap-[50px]">
+        <ul className="hidden xl:flex gap-[50px]">
           <Link
             to="about"
             spy={true}
@@ -73,7 +73,7 @@ const Nav = ({ openModal }) => {
         <NavDropDown
           handleOpenDropdown={handleOpenDropDown}
           openModal={openModal}
-          className="block lg:hidden"
+          className="block xl:hidden"
         />
       )}
     </>

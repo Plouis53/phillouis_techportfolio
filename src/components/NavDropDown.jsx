@@ -1,10 +1,16 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { motion } from "framer-motion";
 
 const NavDropDown = ({ handleOpenDropdown }) => {
   return (
     <>
-      <div className="flex flex-col bg-white w-[100%] position: absolute">
+      <motion.div
+        animate={{ y: 0, opacity: 1 }}
+        initial={{ y: -100, opacity: 0 }}
+        exit={{ y: -100, opacity: 0 }}
+        className="flex flex-col bg-white w-[100%] position: absolute"
+      >
         <Link
           to="projects"
           spy={true}
@@ -20,12 +26,13 @@ const NavDropDown = ({ handleOpenDropdown }) => {
           spy={true}
           smooth={true}
           offset={100}
+          key={about}
           className="border-black border-b-[1px] p-[10px] text-center"
           onClick={handleOpenDropdown}
         >
           <button className="text-black font-[Poppins]">About</button>
         </Link>
-      </div>
+      </motion.div>
     </>
   );
 };

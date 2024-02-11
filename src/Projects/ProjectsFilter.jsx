@@ -1,8 +1,15 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const ProjectsFilter = ({ handleProject }) => {
   return (
-    <div className="flex flex-col bg-white w-[100%] position: absolute z-[2] mx-[-30px] lg:hidden">
+    <motion.div
+      animate={{ y: 0, opacity: 1 }}
+      initial={{ y: -100, opacity: 0 }}
+      exit={{ y: -100, opacity: 0 }}
+      className="flex flex-col bg-white w-[100%] position: absolute z-[2] mx-[-30px] lg:hidden"
+    >
+      {" "}
       <button
         onClick={() => handleProject("all")}
         className="text-black font-[Poppins] p-[10px] border-black border-b-[1px]"
@@ -27,7 +34,7 @@ const ProjectsFilter = ({ handleProject }) => {
       >
         React
       </button>
-    </div>
+    </motion.div>
   );
 };
 export default ProjectsFilter;
