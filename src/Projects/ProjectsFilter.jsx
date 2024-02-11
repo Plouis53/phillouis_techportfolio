@@ -1,8 +1,8 @@
 import React from "react";
 
-const ProjectsFilter = ({ handleProject, handleOpenDropDown }) => {
+const ProjectsFilter = ({ handleProject }) => {
   return (
-    <div className="flex flex-col bg-white w-[100%] position: absolute z-[2] mx-[-30px]">
+    <div className="flex flex-col bg-white w-[100%] position: absolute z-[2] mx-[-30px] lg:hidden">
       <button
         onClick={() => handleProject("all")}
         className="text-black font-[Poppins] p-[10px] border-black border-b-[1px]"
