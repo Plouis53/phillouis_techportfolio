@@ -32,6 +32,8 @@ const AroundTheUs = ({ showCard, category }) => {
           empowering users to tailor it to their preferences. From editing their
           profiles to uploading new photos and managing their feed effortlessly,
           the user experience is seamless. Explore it today!
+
+          
         </p>
         <div className="flex gap-[20px]">
           <a href="https://plouis53.github.io/se_project_aroundtheus/">

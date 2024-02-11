@@ -1,0 +1,37 @@
+module.exports = {
+  root: true,
+  env: { browser: true, es2020: true },
+  extends: [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended",
+  ],
+  ignorePatterns: ["dist", ".eslintrc.cjs"],
+  parserOptions: { ecmaVersion: "latest", sourceType: "module" },
+  settings: { react: { version: "18.2" } },
+
+  plugins: ["react"],
+  rules: {
+    "react-refresh/only-export-components": [
+      "warn",
+      { allowConstantExport: true },
+    ],
+    "react/prop-types": [0],
+    "react/no-unescaped-entities": [0],
+    "no-empty": [0], // ?
+    "no-misleading-character-class": [0], //?
+    "no-useless-escape": [0], //?
+    "no-prototype-builtins": [0], //?
+    "no-cond-assign": [0], //?
+    "no-unused-vars": [0], // ?
+    "no-fallthrough": [0], //?
+    "no-func-assign": [0], //?
+    "getter-return": [0], //?
+    "valid-typeof": [0], //?
+    "no-control-regex": [0], //?
+    "no-undef": [0], //?
+    "no-unsafe-finally": [0], //?
+    "react/no-children-prop": [0], //?
+  },
+};
