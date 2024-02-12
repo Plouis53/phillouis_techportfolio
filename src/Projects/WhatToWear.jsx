@@ -38,9 +38,9 @@ const WhatToWear = ({ showCard, category }) => {
           responsive front-end using HTML, CSS, and JavaScript, and subsequently
           deployed it on GitHub. The codebase was optimized with reusable and
           dynamic card components, enhancing user interaction.
-          <span className="font-[Poppins] font-semibold text-[#fc6161] text-[14px] xs:text-[15px]">
+          {/* <span className="font-[Poppins] font-semibold text-[#fc6161] text-[14px] xs:text-[15px]">
             {" "}
-          </span>
+          </span> */}
         </p>
         <div className="flex gap-[20px]">
           <a href="https://styleguide.mooo.com/">
