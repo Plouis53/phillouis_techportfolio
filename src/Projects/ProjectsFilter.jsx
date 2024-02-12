@@ -6,7 +6,7 @@ const ProjectsFilter = ({ handleProject }) => {
     <motion.div
       animate={{ y: 0, opacity: 1 }}
       initial={{ y: -100, opacity: 0 }}
-      exit={{ y: -100, opacity: 0 }}
+      transition={{ type: "spring", stiffness: 300 }}
       className="flex flex-col bg-white w-[100%] position: absolute z-[2] mx-[-30px] lg:hidden"
     >
       {" "}

@@ -31,7 +31,6 @@ const ContactModal = ({ closeModal }) => {
       <motion.div
         animate={{ scale: 1 }}
         initial={{ scale: 0 }}
-        transition={{ type: "spring", stiffness: 300, duration: 1 }}
         className="w-fit position: relative bg-white m-auto p-9 rounded-xl box-border"
       >
         <button
