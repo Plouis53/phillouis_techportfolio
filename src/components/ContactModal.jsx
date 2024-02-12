@@ -31,6 +31,7 @@ const ContactModal = ({ closeModal }) => {
       <motion.div
         animate={{ scale: 1 }}
         initial={{ scale: 0 }}
+        transition={{ duration: 0.2 }}
         className="w-fit position: relative bg-white m-auto p-9 rounded-xl box-border"
       >
         <button
@@ -39,7 +40,7 @@ const ContactModal = ({ closeModal }) => {
         >
           X
         </button>
-        <div className="w-[300px] md:w-[400px] mt-[20px]">
+        <div className="w-[250px] md:w-[400px] mt-[20px]">
           <form
             ref={form}
             onSubmit={sendEmail}
