@@ -46,14 +46,15 @@ const ContactModal = ({ closeModal }) => {
             onSubmit={sendEmail}
             className="flex flex-col align-middle gap-[10px]"
           >
-            <h1 className="font-[Poppins] text-black text-[30px] font-semibold md:text-[50px]">
+            <h1 className="font-[Poppins] text-center text-black text-[30px] font-semibold md:text-[50px]">
+              {" "}
               Contact me
             </h1>
             <label className="font-[Poppins] text-black text-[16px] font-semibold">
               Name
             </label>
             <input
-              className="border-[1px] border-black bg-white p-[7px] rounded-[10px] text-black"
+              className=" bg-slate-100 border-black border-[1px] p-[7px] rounded-[10px] text-black"
               type="name"
               name="user_name"
               placeholder="Your name"
@@ -64,7 +65,7 @@ const ContactModal = ({ closeModal }) => {
               Email
             </label>
             <input
-              className="border-[1px] border-black bg-white p-[7px] rounded-[10px] text-black"
+              className="border-[1px] border-black bg-slate-100 p-[7px] rounded-[10px] text-black"
               type="email"
               name="user_email"
               placeholder="Your email"
@@ -74,14 +75,14 @@ const ContactModal = ({ closeModal }) => {
               Your message!
             </label>
             <textarea
-              className="border-[1px] border-black bg-white p-[7px] rounded-[10px] text-black h-[100px]"
+              className="border-[1px] border-black bg-slate-100 p-[7px] rounded-[10px] text-black h-[100px]"
               placeholder="Type your message"
               name="message"
               minLength="4"
               maxLength="100"
               required
             ></textarea>
-            <button className="relative px-5 py-3 w-[200px] mx-auto mt-[20px] overflow-hidden font-medium text-black bg-white border border-black rounded-lg shadow-inner group">
+            <button className="relative px-5 py-3 w-[200px] mx-auto mt-[20px] bg-slate-100 overflow-hidden font-medium text-black border border-black rounded-lg shadow-inner group">
               <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-gray-600 group-hover:w-full ease"></span>
               <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-gray-600 group-hover:w-full ease"></span>
               <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-gray-600 group-hover:h-full ease"></span>
