@@ -1,13 +1,13 @@
 import Typewriter from "typewriter-effect";
-import Portrait from "../images/Portrait.png";
-import PortraitMobile from "../images/PortraitMobile.png";
-import CSS from "../assets/CSS.svg";
-import HTML from "../assets/HTML.svg";
-import Tailwind from "../assets/Tailwind.svg";
-import JS from "../assets/JS.svg";
-import React from "../assets/React.svg";
-import NODE from "../assets/NODE.svg";
-import Mongo from "../../assets/";
+import Portrait from "../../images/Portrait.png";
+import PortraitMobile from "../../images/PortraitMobile.png";
+import CSS from "../../assets/CSS.svg";
+import HTML from "../../assets/HTML.svg";
+import Tailwind from "../../assets/Tailwind.svg";
+import JS from "../../assets/JS.svg";
+import React from "../../assets/React.svg";
+import NODE from "../../assets/NODE.svg";
+import Mongo from "../../assets/Mongodb.svg";
 
 const Hero = () => {
   return (
