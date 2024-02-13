@@ -1,7 +1,7 @@
+import "../App/App.css";
 import NavDropDown from "./NavDropDown";
 import { Link } from "react-scroll";
 import React from "react";
-import "../../src/App.css";
 import { useState } from "react";
 
 const Nav = ({ openModal }) => {

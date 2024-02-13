@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
+import "../App/App.css";
 
 const NavDropDown = ({ handleOpenDropdown }) => {
   return (

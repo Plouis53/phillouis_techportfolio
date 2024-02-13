@@ -1,6 +1,5 @@
 import React from "react";
 import Image1 from "../images/Image1.png";
-// import Image2 from "../images/Image2.png";
 
 const About = (openModal) => {
   return (

@@ -7,7 +7,7 @@ import Tailwind from "../assets/Tailwind.svg";
 import JS from "../assets/JS.svg";
 import React from "../assets/React.svg";
 import NODE from "../assets/NODE.svg";
-import Mongo from "../assets/Mongodb.svg";
+import Mongo from "../../assets/";
 
 const Hero = () => {
   return (
