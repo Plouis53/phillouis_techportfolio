@@ -7,6 +7,7 @@ import Tailwind from "../assets/Tailwind.svg";
 import JS from "../assets/JS.svg";
 import React from "../assets/React.svg";
 import NODE from "../assets/NODE.svg";
+import Mongo from "../assets/Mongodb.svg";
 
 const Hero = () => {
   return (
@@ -60,6 +61,11 @@ const Hero = () => {
           <img src={JS} className="w-[45px] xs:w-[50px] xl:w-[90px]"></img>
           <img src={React} className="w-[45px] xs:w-[50px] xl:w-[90px]"></img>
           <img src={NODE} className="w-[45px] xs:w-[50px] xl:w-[90px]"></img>
+          <img
+            src={Mongo}
+            alt="Mongo logo"
+            className="w-[45px] xs:w-[50px] xl:w-[90px]"
+          ></img>
         </div>
       </div>
       <div className="hidden xl:flex bg-white h-[350px] bg-opacity-50 w-[350px] m-auto mt-[200px] xl:mt-[100px] rounded-t-[200px] rounded-b-[10px] position: relative">

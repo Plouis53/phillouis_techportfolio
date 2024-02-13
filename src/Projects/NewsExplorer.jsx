@@ -3,6 +3,8 @@ import CSS from "../assets/CSS.svg";
 import JS from "../assets/JS.svg";
 import NewsEx1 from "../images/NewsEx1.png";
 import React from "../assets/React.svg";
+import NODE from "../assets/NODE.svg";
+import Mongo from "../assets/Mongodb.svg";
 
 const NewsExplorer = ({ showCard, category }) => {
   return (
@@ -19,12 +21,23 @@ const NewsExplorer = ({ showCard, category }) => {
         {" "}
         <div className="flex gap-[10px] w-full border-b-[2px] border-black border-opacity-50">
           <h1 className="font-[Poppins] font-semibold text-black text-[20px] md:text-[25px]">
-            News Explorer
+            {/* News Explorer */}
+            NE
           </h1>
           <img src={HTML} className="h-[35px] w-[35px] self-center"></img>
           <img src={CSS} className="h-[35px] w-[35px] self-center"></img>
           <img src={JS} className="h-[35px] w-[35px] self-center"></img>
           <img src={React} className="h-[35px] w-[35px] self-center"></img>
+          <img
+            src={NODE}
+            alt="Node.js logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
+          <img
+            src={Mongo}
+            alt="Mongodb logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
         </div>
         <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
           News Explorer is an exciting project—a news app developed using React
