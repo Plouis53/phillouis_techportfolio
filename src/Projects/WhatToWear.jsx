@@ -15,6 +15,7 @@ const WhatToWear = ({ showCard, category }) => {
     >
       <img
         src={WTWR1}
+        alt="Image from project"
         className="rounded-lg top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
       ></img>
       <div className="flex flex-col gap-[20px] justify-between h-fit xl:h-[570px] bg-white w-full mt-[-50px] p-[10px] rounded-lg">
@@ -23,18 +24,31 @@ const WhatToWear = ({ showCard, category }) => {
           <h1 className="font-[Poppins] font-semibold text-ellipsis overflow-hidden whitespace-nowrap text-black text-[20px] md:text-[25px]">
             WTWR
           </h1>
-          <img src={HTML} className="h-[35px] w-[35px] self-center"></img>
-          <img src={CSS} className="h-[35px] w-[35px] self-center"></img>
+          <img
+            src={HTML}
+            alt="html logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
+          <img
+            src={CSS}
+            alt="CSS logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
           <img src={JS} className="h-[35px] w-[35px] self-center"></img>
           <img src={React} className="h-[35px] w-[35px] self-center"></img>
           <img
             src={NODE}
-            alt="Node.js logo"
+            alt="Node logo"
             className="h-[35px] w-[35px] self-center"
           ></img>
           <img
             src={Mongo}
             alt="Mongodb logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
+          <img
+            src={React}
+            alt="react.js logo"
             className="h-[35px] w-[35px] self-center"
           ></img>
         </div>

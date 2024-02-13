@@ -15,6 +15,7 @@ const NewsExplorer = ({ showCard, category }) => {
     >
       <img
         src={NewsEx1}
+        alt="New Explorer Photo"
         className="rounded-lg top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
       ></img>
       <div className="flex flex-col gap-[20px] justify-between h-fit-content xl:h-[550px] bg-white w-full mt-[-50px] p-[10px] rounded-lg">
@@ -24,10 +25,26 @@ const NewsExplorer = ({ showCard, category }) => {
             {/* News Explorer */}
             NE
           </h1>
-          <img src={HTML} className="h-[35px] w-[35px] self-center"></img>
-          <img src={CSS} className="h-[35px] w-[35px] self-center"></img>
-          <img src={JS} className="h-[35px] w-[35px] self-center"></img>
-          <img src={React} className="h-[35px] w-[35px] self-center"></img>
+          <img
+            src={HTML}
+            alt="html logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
+          <img
+            src={CSS}
+            alt="CSS logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
+          <img
+            src={JS}
+            alt="JavaScript logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
+          <img
+            src={React}
+            alt="React logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
           <img
             src={NODE}
             alt="Node.js logo"

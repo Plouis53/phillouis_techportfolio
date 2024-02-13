@@ -12,6 +12,7 @@ const PracticumLibrary = ({ showCard, category }) => {
     >
       <img
         src={Library}
+        alt="Image from project"
         className="rounded-lg top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
       ></img>
       <div className="flex flex-col gap-[20px] justify-between h-fit-content xl:h-[330px] bg-white w-full mt-[-50px] p-[10px] rounded-lg">
@@ -20,8 +21,16 @@ const PracticumLibrary = ({ showCard, category }) => {
           <h1 className="font-[Poppins] font-semibold text-black text-[20px md:text-[25px]">
             Library
           </h1>
-          <img src={HTML} className="h-[35px] w-[35px] self-center"></img>
-          <img src={CSS} className="h-[35px] w-[35px] self-center"></img>
+          <img
+            src={HTML}
+            alt="html logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
+          <img
+            src={CSS}
+            alt="CSS logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
         </div>
         <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
           The Practicum Library is a single-page landing site featuring clean

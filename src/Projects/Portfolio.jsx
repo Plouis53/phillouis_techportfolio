@@ -11,6 +11,7 @@ const MyPortfolio = ({ showCard, category }) => {
     >
       <img
         src={Portfolio}
+        alt="Image from project"
         className="rounded-lg top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
       ></img>
       <div className="flex flex-col gap-[20px] justify-between h-fit-content xl:h-[330px] bg-white w-full mt-[-50px] p-[10px] rounded-lg">
@@ -19,8 +20,16 @@ const MyPortfolio = ({ showCard, category }) => {
           <h1 className="font-[Poppins] font-semibold text-black text-[20px] md:text-[25px]">
             My Portfolio
           </h1>
-          <img src={React} className="h-[35px] w-[35px] self-center"></img>
-          <img src={Tailwind} className="h-[35px] w-[35px] self-center"></img>
+          <img
+            src={React}
+            alt="React.js logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
+          <img
+            src={Tailwind}
+            alt="Tailwind logo"
+            className="h-[35px] w-[35px] self-center"
+          ></img>
         </div>
         <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
           The website you're currently exploring was created using React and
