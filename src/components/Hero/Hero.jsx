@@ -1,5 +1,5 @@
 import Typewriter from "typewriter-effect";
-import Portrait3 from "../../images/Portrait3.png";
+import Portrait4 from "../../images/Portrait4.png";
 import PortraitMobile from "../../images/PortraitMobile.png";
 import CSS from "../../assets/CSS.svg";
 import HTML from "../../assets/HTML.svg";
@@ -94,7 +94,7 @@ const Hero = () => {
       </div>
       <div className="hidden xl:flex bg-white h-[350px] bg-opacity-50 w-[350px] m-auto mt-[200px] xl:mt-[100px] rounded-t-[200px] rounded-b-[10px] position: relative">
         <img
-          src={Portrait3}
+          src={Portrait4}
           alt="portrait"
           className=" h-[500px] w-[350px] rounded-[10px] position: absolute bottom-0"
         ></img>
