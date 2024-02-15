@@ -11,7 +11,8 @@ const Background = (openModal) => {
         Background
       </h1>
       <div className="flex flex-col md:flex-row justify-between gap-[40px] mt-[50px]">
-        <div className="flex flex-col gap-[20px] justify-center w-full mb:max-w-[50%] h-[fit] md:h-fit bg-[#363636] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-[20px] rounded-xl">
+        <div className="flex flex-col gap-[20px] justify-center w-full mb:max-w-[50%] h-fit bg-[#363636] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-[20px] rounded-xl">
+          {" "}
           <div className="relative border-s border-gray-200 dark:border-[#f5dfa1]">
             <div className="relative border-s border-gray-200 dark:border-[#f5dfa1]">
               <div className="px-[15px]">
@@ -152,7 +153,7 @@ const Background = (openModal) => {
                 </p>
               </div>
             </div>
-            <a
+            <button
               onClick={openModal}
               href="#_"
               className="hidden lg:inline-flex shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] relative lg:items-center justify-center px-[24px] py-[12px] w-[200px] m-auto mt-[20px] mb-[10px] overflow-hidden font-medium bg-[#f5dfa1] text-black transition duration-300 ease-out rounded-full group"
@@ -177,7 +178,7 @@ const Background = (openModal) => {
                 Contact
               </span>
               <span className="relative invisible">Contact</span>
-            </a>
+            </button>
           </div>
         </div>
       </div>

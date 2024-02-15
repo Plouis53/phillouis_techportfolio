@@ -12,7 +12,7 @@ import Mongo from "../../assets/Mongodb.svg";
 const Hero = () => {
   return (
     <div className="flex flex-col xl:flex-row xl:justify-between max-w-[100%] mt-[75px] mb-[75px] xl:mb-[150px] mx-[30px] xl:mx-[70px]">
-      <div className="flex flex-col text-center xl:w-[850px] xl:text-start">
+      <div className="flex flex-col  m-auto text-center xl:w-[850px] xl:text-start">
         <div className="xl:hidden w-[200px] border-white border-[1px] mx-auto mb-[30px] rounded-[10px] p-[5px] shadow-[rgba(255,_255,_255,_0.50)_0px_3px_8px]">
           <img
             src={PortraitMobile}
