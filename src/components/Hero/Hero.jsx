@@ -53,8 +53,6 @@ const Hero = () => {
           digital ideas to life!
         </p>
         <div className="flex justify-center xl:justify-start mt-[20px] w-full xl:ml-[-10px] xl:jusify-center">
-          {/* <img src={HTML} className="w-[45px] xs:w-[50px] xl:w-[90px]"></img>
-          <img src={CSS} className="w-[45px] xs:w-[50px] xl:w-[90px]"></img> */}
           <img
             src={HTML}
             alt="HTML logo"
