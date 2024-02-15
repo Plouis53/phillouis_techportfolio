@@ -82,6 +82,13 @@ const Background = (openModal) => {
               </p>
             </div>
           </div>
+          <a
+            download="Mr. Phillippe Louis Resumé’ SE (6)"
+            href="../../images/Resume.pdf"
+            className="font-[Poppins] py-[10px] px-[40px] rounded-full bg-[#f5dfa1] text-black w-fit m-auto shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:scale-110 duration-[.5s] ease-in-out"
+          >
+            Resume
+          </a>
         </div>
         <div className="flex md:flex-col gap-[20px] align-center w-full md:max-w-[50%] h-[750px] rounded-xl">
           <div className="flex flex-col justify-between h-fit md:h-fit rounded-xl bg-[#363636] p-[20px] gap-[20px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
@@ -111,46 +118,30 @@ const Background = (openModal) => {
               and bring ideas to life. Feel free to reach out, and let's work
               together to create something amazing!
             </p>
-            <div className="flex flex-wrap justify-center gap-[10px] mt-[20px]">
-              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-                <p className="font-[Poppins] text-[12px] text-black">
-                  Project Management
-                </p>
+            <div className="flex flex-wrap justify-center gap-[10px] mt-[15px] mb-[10px]">
+              <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
+                <p>Project Management</p>
               </div>
-              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-                <p className="font-[Poppins] text-[12px] text-black">
-                  Team Leadership
-                </p>
+              <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
+                <p>Team Leadership</p>
               </div>
-              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-                <p className="font-[Poppins] text-[12px] text-black">
-                  Strategy Development
-                </p>
+              <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
+                <p>Strategy Development</p>
               </div>
-              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-                <p className="font-[Poppins] text-[12px] text-black">
-                  Process Improvement
-                </p>
+              <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
+                <p>Process Improvement</p>
               </div>
-              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-                <p className="font-[Poppins] text-[12px] text-black">
-                  Time management
-                </p>
+              <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
+                <p>Time management</p>
               </div>
-              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-                <p className="font-[Poppins] text-[12px] text-black">
-                  User Experience Design
-                </p>
+              <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
+                <p>User Experience Design</p>
               </div>
-              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-                <p className="font-[Poppins] text-[12px] text-black">
-                  Effective Communicater
-                </p>
+              <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
+                <p>Effective Communicater</p>
               </div>
-              <div className="bg-white px-[10px] py-[5px] rounded-[10px]">
-                <p className="font-[Poppins] text-[12px] text-black">
-                  Problem-Solving
-                </p>
+              <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
+                <p>Problem-Solving</p>
               </div>
             </div>
             <button

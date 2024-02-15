@@ -1,13 +1,19 @@
+import React from "react";
 import Nav from "../Nav/Nav.jsx";
 import Hero from "../Hero/Hero.jsx";
 import Projects from "../../Projects/Projects.jsx";
 import Background from "../Background/Background.jsx";
 // import About from "../About/About.jsx";
-import ContactModal from "../ContactModal/ContactModal.jsx";
+import Contact from "../Contact/Contact.jsx";
 import Footer from "../Footer/Footer.jsx";
 import ContactButton from "../ContactButton/ContactButton.jsx";
+import Testimonials from "../Testimonials/Testimonials.jsx";
 import { useEffect, useState } from "react";
-import React from "react";
+import {
+  BrowserRouter,
+  Switch,
+  Route,
+} from "react-router-dom/cjs/react-router-dom.min.js";
 
 function App() {
   const [modal, setModal] = useState("");
@@ -33,22 +39,25 @@ function App() {
   }, []);
 
   return (
+    <BrowserRouter>
     <div className="bg-[#2b2b2b] w-full m-auto">
-      <Nav openModal={openModal} />
-      <Hero />
-      {modal === "create" && <ContactModal closeModal={closeModal} />}
-      <Projects openModal={openModal} />
-      <Background openModal={openModal} />
-      <Footer openModal={openModal} />
-      <ContactButton openModal={openModal} />
-      {/* <div className="flex justify-center items-center bg-[#f5dfa1] h-[60px] w-[60px] rounded-[100%] position: fixed bottom-[30px] right-[30px] lg:hidden">
-        <button
-          onClick={openModal}
-          className="bg-Mail h-[32px] w-[32px] rounded-[100%]"
-        ></button>
-      </div> */}
+      <Route exact path="/">
+        <Nav />
+        <Hero />
+        <Projects />
+        <Background />
+        <Testimonials />
+        <Footer />
+        <ContactButton />
+      </Route>
+      <Switch>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+      </Switch>
     </div>
-  );
+  </BrowserRouter>
+);
 }
 
 export default App;

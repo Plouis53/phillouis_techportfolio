@@ -3,6 +3,7 @@ import NavDropDown from "./NavDropDown";
 import { Link } from "react-scroll";
 import React from "react";
 import { useState } from "react";
+import { Link as RouterLink } from "react-router-dom/cjs/react-router-dom.min";
 
 const Nav = ({ openModal }) => {
   const [dropDown, setDropDown] = useState(true);
@@ -49,14 +50,16 @@ const Nav = ({ openModal }) => {
             duration={500}
             className="self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white"
           >
-            <li className="text-white font-[Poppins] text-[18px]">About me</li>
+            <li className="text-white font-[Poppins] text-[18px]">
+              Background
+            </li>
           </Link>
-          <li
-            onClick={openModal}
+          <RouterLink
+            to="/contact"
             className="text-white font-[Poppins] text-[18px] self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white"
           >
             Contact
-          </li>
+          </RouterLink>
           <Link
             to="projects"
             spy={true}
@@ -66,6 +69,18 @@ const Nav = ({ openModal }) => {
             className="self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white"
           >
             <li className="text-white font-[Poppins] text-[18px]">Projects</li>
+          </Link>
+          <Link
+            to="testimonials"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+            className="self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white"
+          >
+            <li className="text-white font-[Poppins] text-[18px]">
+              Testimonials
+            </li>
           </Link>
         </ul>
       </div>

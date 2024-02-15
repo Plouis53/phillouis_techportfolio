@@ -70,7 +70,7 @@ const Projects = () => {
           React
         </button>
       </div>
-      <div className="mt-[100px] flex flex-col xl:justify-center xl:flex-row xl:gap-[20px]"></div>
+      <div className="mt-[100px] flex flex-col items-center md:flex-row md:justify-center md:gap-[20px]"></div>
       {/* adjust accordingly */}
       <MyPortfolio category="React" showCard={showCard} />
       <div className="mt-[100px] flex flex-col md:justify-center md:flex-row md:gap-[20px]">

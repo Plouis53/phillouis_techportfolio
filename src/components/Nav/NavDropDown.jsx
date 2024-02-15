@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom/cjs/react-router-dom.min";
 import { motion } from "framer-motion";
 import "../App/App.css";
 
@@ -23,6 +24,17 @@ const NavDropDown = ({ handleOpenDropdown }) => {
           <button className="text-black font-[Poppins]">Projects</button>
         </Link>
         <Link
+          to="testimonials"
+          spy={true}
+          smooth={true}
+          offset={20}
+          key={testimonials}
+          className="border-black border-b-[1px] p-[10px] text-center"
+          onClick={handleOpenDropdown}
+        >
+          <button className="text-black font-[Poppins]">Testimonials</button>
+        </Link>
+        <Link
           to="about"
           spy={true}
           smooth={true}
@@ -33,6 +45,13 @@ const NavDropDown = ({ handleOpenDropdown }) => {
         >
           <button className="text-black font-[Poppins]">About</button>
         </Link>
+        <RouterLink
+          to="/contact"
+          className="border-black border-b-[1px] p-[10px] text-center"
+          onClick={handleOpenDropdown}
+        >
+          <button className="text-black font-[Poppins]">Contact</button>
+        </RouterLink>
       </motion.div>
     </>
   );
