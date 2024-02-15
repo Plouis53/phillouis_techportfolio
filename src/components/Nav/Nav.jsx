@@ -1,23 +1,20 @@
-import "../App/App.css";
-import NavDropDown from "./NavDropDown";
-import { Link } from "react-scroll";
 import React from "react";
+import "../App/App.css";
+import { Link } from "react-scroll";
 import { useState } from "react";
+import NavDropDown from "./NavDropDown";
 import { Link as RouterLink } from "react-router-dom/cjs/react-router-dom.min";
 
 const Nav = ({ openModal }) => {
   const [dropDown, setDropDown] = useState(true);
   const [isRotated, setIsRotated] = useState(false);
-
   const handleButtonClick = () => {
     setIsRotated(!isRotated);
   };
-
   const handleOpenDropDown = () => {
     setDropDown(!dropDown);
     handleButtonClick();
   };
-
   return (
     <>
       <div className="bg-[#363636] w-[100%] pt-[25px] pb-[25px] px-[30px] xl:px-[70px] flex justify-between items-center">
@@ -60,6 +57,7 @@ const Nav = ({ openModal }) => {
           >
             Contact
           </RouterLink>
+
           <Link
             to="projects"
             spy={true}

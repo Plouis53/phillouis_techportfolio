@@ -34,7 +34,20 @@ const Testimonials = () => {
             </div>
           </div>
           <div className="bg-white rounded-[10px] p-[20px] mt-[20px] max-w-[500px] h-fit md:h-[330px]">
-            <p className="font-[Poppins] text-black text-[14px]">""</p>
+            <p className="font-[Poppins] text-black text-[14px]">
+              "Hello Vishal! Can use you as a reference and post it one my
+              portfolio website? "I've already have a rough draft of what I can
+              use. "Throughout the coding bootcamp, Phillippe Louis consistently
+              demonstrated a commitment to learning and growth. His dedication
+              twas evident in his proactive approach to seeking additional
+              support through one-on-one tutoring sessions and regular
+              attendance at office hours. Phillippe's enthusiasm for software
+              development was evident. He was not only a good individual learner
+              but also as a supportive team member. With his positive attitude
+              and eagerness to embrace challenges, Phillippe proved himself to
+              be a standout talent in the Triple Ten coding bootcamp community.
+              "
+            </p>
           </div>
         </div>
 

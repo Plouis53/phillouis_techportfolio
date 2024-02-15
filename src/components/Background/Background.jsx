@@ -1,7 +1,7 @@
 import React from "react";
 import Image1 from "../../images/Image1.png";
 
-const Background = (openModal) => {
+const Background = ({ openModal }) => {
   return (
     <div
       id="about"

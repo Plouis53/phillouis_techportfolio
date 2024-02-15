@@ -1,4 +1,6 @@
-import React from "react";
+//* Component imports
+import React, { useEffect, useState } from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Nav from "../Nav/Nav.jsx";
 import Hero from "../Hero/Hero.jsx";
 import Projects from "../../Projects/Projects.jsx";
@@ -8,12 +10,6 @@ import Contact from "../Contact/Contact.jsx";
 import Footer from "../Footer/Footer.jsx";
 import ContactButton from "../ContactButton/ContactButton.jsx";
 import Testimonials from "../Testimonials/Testimonials.jsx";
-import { useEffect, useState } from "react";
-import {
-  BrowserRouter,
-  Switch,
-  Route,
-} from "react-router-dom/cjs/react-router-dom.min.js";
 
 function App() {
   const [modal, setModal] = useState("");
@@ -23,7 +19,7 @@ function App() {
   };
 
   const closeModal = () => {
-    setModal();
+    setModal("");
   };
 
   useEffect(() => {
@@ -40,8 +36,7 @@ function App() {
 
   return (
     <BrowserRouter>
-    <div className="bg-[#2b2b2b] w-full m-auto">
-      <Route exact path="/">
+      <div className="bg-[#2b2b2b] w-full m-auto">
         <Nav />
         <Hero />
         <Projects />
@@ -49,15 +44,15 @@ function App() {
         <Testimonials />
         <Footer />
         <ContactButton />
-      </Route>
-      <Switch>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-      </Switch>
-    </div>
-  </BrowserRouter>
-);
+        <Switch>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+        </Switch>
+      </div>
+    </BrowserRouter>
+  );
 }
 
 export default App;
+
