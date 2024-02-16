@@ -100,7 +100,14 @@ const Background = ({ openModal }) => {
               ></img>
             </div>
             <p className="font-[Poppins] text-[14px] xs:text-[15px] text-white text-center">
-              My name is Phillippe Louis and I am a passionate web and
+              I'm Phillippe Louis, a passionate web and app designer. I love
+              creating visually appealing and user-friendly digital experiences.
+              My journey in web development began with a curiosity for turning
+              ideas into interactive websites. I'm skilled in front-end and
+              back-end technologies, specializing in React.js, Typescript,
+              Node.js, and MongoDB. I'm experienced in Git and GitHub for
+              project management. Let's work together to bring ideas to life.
+              {/* My name is Phillippe Louis and I am a passionate web and
               application designer with a deep love for creating visually
               captivating and user-friendly digital experiences. My journey in
               the world of web development began with a curiosity for turning
@@ -116,17 +123,17 @@ const Background = ({ openModal }) => {
               and collaboration. Whether it's a personal project or a
               collaborative effort, I'm always eager to tackle new challenges
               and bring ideas to life. Feel free to reach out, and let's work
-              together to create something amazing!
+              together to create something amazing! */}
             </p>
             <div className="flex flex-wrap justify-center gap-[10px] mt-[15px] mb-[10px]">
               <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
                 <p>Project Management</p>
               </div>
               <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
-                <p>Team Leadership</p>
+                <p>Leadership</p>
               </div>
               <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
-                <p>Strategy Development</p>
+                <p>Strategy </p>
               </div>
               <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
                 <p>Process Improvement</p>
@@ -135,16 +142,16 @@ const Background = ({ openModal }) => {
                 <p>Time management</p>
               </div>
               <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
-                <p>User Experience Design</p>
+                <p>UX Design</p>
               </div>
               <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
-                <p>Effective Communicater</p>
+                <p>Soft Skills</p>
               </div>
               <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
-                <p>Problem-Solving</p>
+                <p>Risk Response</p>
               </div>
             </div>
-            <button
+            {/* <button
               onClick={openModal}
               href="#_"
               className="hidden lg:inline-flex shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] relative lg:items-center justify-center px-[24px] py-[12px] w-[200px] m-auto mt-[20px] mb-[10px] overflow-hidden font-medium bg-[#f5dfa1] text-black transition duration-300 ease-out rounded-full group"
@@ -169,7 +176,7 @@ const Background = ({ openModal }) => {
                 Contact
               </span>
               <span className="relative invisible">Contact</span>
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
