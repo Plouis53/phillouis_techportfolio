@@ -20,13 +20,13 @@ const Nav = ({ openModal }) => {
       <div className="bg-[#363636] w-[100%] pt-[25px] pb-[25px] px-[30px] xl:px-[70px] flex justify-between items-center">
         <div className="flex gap-[20px]">
           <a
-            href="https://www.linkedin.com/in/dillon-arnold-352782275/"
+            href="https://www.linkedin.com/in/phillippe-pmpisintech/"
             className="h-fit p-2px border-white border-[1px] rounded-[50%] flex hover:scale-110 ease-out duration-[.5s]"
           >
             <button className="bg-LinkedIn h-[48px] w-[48px]"></button>
           </a>
           <a
-            href="https://github.com/Dillona25"
+            href="https://github.com/Plouis53"
             className=" h-fit p-2px border-white border-[1px] rounded-[50%] flex hover:scale-110 ease-out duration-[.5s]"
           >
             <button className="bg-Github h-[48px] w-[48px]"></button>

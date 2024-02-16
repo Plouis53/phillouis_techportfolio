@@ -11,7 +11,7 @@ const Background = ({ openModal }) => {
         Background
       </h1>
       <div className="flex flex-col md:flex-row justify-between gap-[40px] mt-[50px]">
-        <div className="flex flex-col gap-[20px] justify-center w-full mb:max-w-[50%] h-fit bg-[#363636] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-[20px] rounded-xl">
+        <div className="flex flex-col gap-[20px] justify-center w-full mb:max-w-[50%] h-fit bg-[#363636] shadow-[rgba(255,_255,_255,_0.24)_0px_3px_8px] p-[20px] rounded-xl">
           {" "}
           <div className="relative border-s border-gray-200 dark:border-[#f5dfa1]">
             <div className="relative border-s border-gray-200 dark:border-[#f5dfa1]">
@@ -84,7 +84,7 @@ const Background = ({ openModal }) => {
           </div>
           <a
             download="Mr. Phillippe Louis Resumé’ SE (6)"
-            href="../../images/Resume.pdf"
+            href="../../src/images/Resume.pdf"
             className="font-[Poppins] py-[10px] px-[40px] rounded-full bg-[#f5dfa1] text-black w-fit m-auto shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:scale-110 duration-[.5s] ease-in-out"
           >
             Resume
