@@ -3,7 +3,6 @@ import "../App/App.css";
 import { Link } from "react-scroll";
 import { useState } from "react";
 import NavDropDown from "./NavDropDown";
-import { Link as RouterLink } from "react-router-dom/cjs/react-router-dom.min";
 
 const Nav = ({ openModal }) => {
   const [dropDown, setDropDown] = useState(true);
@@ -74,12 +73,12 @@ const Nav = ({ openModal }) => {
               Testimonials
             </li>
           </Link>
-          <RouterLink
-            to="/contact"
+          <Link
+            onClick={openModal}
             className="text-white font-[Poppins] text-[18px] self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white"
           >
             Contact
-          </RouterLink>
+          </Link>
         </ul>
       </div>
       {dropDown === false && (
