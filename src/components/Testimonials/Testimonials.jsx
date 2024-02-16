@@ -12,7 +12,6 @@ const Testimonials = () => {
       <h1 className="pb-[10px] font-[Poppins] text-[30px] md:text-[50px] text-white font-semibold border-b border-white-[1px]">
         Testimonials
         <span className="text-[15px] md:text-[20px] font-normal">
-          {" "}
           via LinkedIn
         </span>
       </h1>
@@ -33,8 +32,8 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white rounded-[10px] p-[20px] mt-[20px] max-w-[500px] h-fit md:h-[330px]">
-            <p className="font-[Poppins] text-black text-[14px]">
+          <div className="bg-[#2b2b2b] rounded-[10px] p-[20px] mt-[20px] max-w-[500px] h-fit md:h-[275px] shadow-[rgba(255,_255,_255,_0.24)_0px_3px_8px]">
+            <p className="font-[Poppins] text-white text-[14px]">
               "Hello Vishal! Can use you as a reference and post it one my
               portfolio website? "I've already have a rough draft of what I can
               use. "Throughout the coding bootcamp, Phillippe Louis consistently
@@ -67,8 +66,8 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white rounded-[10px] p-[20px] mt-[20px] max-w-[500px] h-fit md:h-[330px]">
-            <p className="font-[Poppins] text-black text-[14px]">
+          <div className="bg-[#2b2b2b] rounded-[10px] p-[20px] mt-[20px] max-w-[500px] h-fit md:h-[275px] shadow-[rgba(255,_255,_255,_0.24)_0px_3px_8px]">
+            <p className="font-[Poppins] text-white text-[14px]">
               "During their time in coding bootcamp, Phillippe Louis
               demonstrated dedication and enthusiasm for learning. He
               consistently exhibited a strong work ethic, tackling challenging

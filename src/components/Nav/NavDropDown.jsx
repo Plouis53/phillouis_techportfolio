@@ -24,17 +24,6 @@ const NavDropDown = ({ handleOpenDropdown }) => {
           <button className="text-black font-[Poppins]">Projects</button>
         </Link>
         <Link
-          to="testimonials"
-          spy={true}
-          smooth={true}
-          offset={20}
-          key={testimonials}
-          className="border-black border-b-[1px] p-[10px] text-center"
-          onClick={handleOpenDropdown}
-        >
-          <button className="text-black font-[Poppins]">Testimonials</button>
-        </Link>
-        <Link
           to="about"
           spy={true}
           smooth={true}
@@ -43,7 +32,18 @@ const NavDropDown = ({ handleOpenDropdown }) => {
           className="border-black border-b-[1px] p-[10px] text-center"
           onClick={handleOpenDropdown}
         >
-          <button className="text-black font-[Poppins]">About</button>
+          <button className="text-black font-[Poppins]">Background</button>
+        </Link>
+        <Link
+          to="testimonials"
+          spy={true}
+          smooth={true}
+          offset={100}
+          key={testimonials}
+          className="border-black border-b-[1px] p-[10px] text-center"
+          onClick={handleOpenDropdown}
+        >
+          <button className="text-black font-[Poppins]">testimonials</button>
         </Link>
         <RouterLink
           to="/contact"

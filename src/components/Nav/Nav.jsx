@@ -40,25 +40,6 @@ const Nav = ({ openModal }) => {
         ></button>
         <ul className="hidden xl:flex gap-[50px]">
           <Link
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={190}
-            duration={500}
-            className="self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white"
-          >
-            <li className="text-white font-[Poppins] text-[18px]">
-              Background
-            </li>
-          </Link>
-          <RouterLink
-            to="/contact"
-            className="text-white font-[Poppins] text-[18px] self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white"
-          >
-            Contact
-          </RouterLink>
-
-          <Link
             to="projects"
             spy={true}
             smooth={true}
@@ -67,6 +48,19 @@ const Nav = ({ openModal }) => {
             className="self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white"
           >
             <li className="text-white font-[Poppins] text-[18px]">Projects</li>
+          </Link>
+
+          <Link
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={100}
+            duration={500}
+            className="self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white"
+          >
+            <li className="text-white font-[Poppins] text-[18px]">
+              Background
+            </li>{" "}
           </Link>
           <Link
             to="testimonials"
@@ -80,6 +74,12 @@ const Nav = ({ openModal }) => {
               Testimonials
             </li>
           </Link>
+          <RouterLink
+            to="/contact"
+            className="text-white font-[Poppins] text-[18px] self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-white"
+          >
+            Contact
+          </RouterLink>
         </ul>
       </div>
       {dropDown === false && (
