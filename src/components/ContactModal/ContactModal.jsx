@@ -12,17 +12,21 @@ const ContactModal = ({ closeModal }) => {
 
     emailjs
       .sendForm(
-        "service_2giy5m7",
-        "template_hsjm40e",
+        "service_s0j8x7f",
+
+        "template_ydsbm4b",
         form.current,
-        "sKJvZiM-ZQ5-Pjc96"
+
+        "Xj532ZUsZU6IaUBTj"
       )
       .then(
         (result) => {
           console.log(result.text);
+          console.log("SUCCESS!");
         },
         (error) => {
           console.log(error.text);
+          console.log("FAILED...", error.text);
         }
       );
   };
