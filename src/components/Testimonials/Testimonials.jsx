@@ -1,7 +1,6 @@
 import React from "react";
 import Joshua from "../../images/Joshua.png";
 import Vishal from "../../images/Vishal.png";
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const Testimonials = ({ openModal }) => {
   return (
