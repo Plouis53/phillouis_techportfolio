@@ -70,23 +70,22 @@ const NewsExplorer = ({ showCard, category }) => {
             {" "}
           </span>
         </p>
-        <div className="flex gap-[20px]">
-          <a href="https://newsquest.mooo.com/">
-            <button className="px-[20px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
-              Live site
-            </button>{" "}
-          </a>
+        <div className="flex gap-3">
+          <button className="px-[20px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
+            Live site
+          </button>
+          <a href="https://newsquest.mooo.com/"></a>
           <a href="https://github.com/Plouis53/news-explorer-frontend.git">
             <button className="px-[20px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
               Frontend Code
-            </button>{" "}
+            </button>
           </a>
         </div>
-        <a href="https://github.com/Plouis53/news-explorer-backend.git">
+        {/* <a href="https://github.com/Plouis53/news-explorer-backend.git">
           <button className="px-[20px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
             Backend Code
-          </button>{" "}
-        </a>
+          </button>
+        </a> */}
       </div>
     </div>
   );

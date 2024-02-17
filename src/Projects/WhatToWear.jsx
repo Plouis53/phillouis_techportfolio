@@ -64,27 +64,23 @@ const WhatToWear = ({ showCard, category }) => {
           responsive front-end using HTML, CSS, and JavaScript, and subsequently
           deployed it on GitHub. The codebase was optimized with reusable and
           dynamic card components, enhancing user interaction.
-          {/* <span className="font-[Poppins] font-semibold text-[#fc6161] text-[14px] xs:text-[15px]">
-            {" "}
-          </span> */}
         </p>
-        <div className="flex gap-[20px]">
-          <a href="https://styleguide.mooo.com/">
-            <button className="px-[20px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
-              Live site
-            </button>{" "}
-          </a>
+        <div className="flex gap-3">
+          <button className="px-[30px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
+            Live site
+          </button>
+          <a href="https://styleguide.mooo.com/"></a>
           <a href="https://github.com/Plouis53/se_project_react.git">
             <button className="px-[20px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
               Frontend Code
-            </button>{" "}
+            </button>
           </a>
         </div>
-        <a href="https://github.com/Plouis53/se_project_express.git">
+        {/* <a href="https://github.com/Plouis53/se_project_express.git">
           <button className="px-[20px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
             Backend Code
-          </button>{" "}
-        </a>
+          </button>
+        </a> */}
       </div>
     </div>
   );

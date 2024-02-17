@@ -4,12 +4,13 @@ import { useRef } from "react";
 import { useForm } from "react-hook-form";
 import ReusableModal from "../Modal/Modal";
 
-const ContactModal = ({ closeModal }) => {
+const ContactModal = ({ closeModal, handleOpenMessageModal }) => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
     closeModal();
+    handleOpenMessageModal();
 
     emailjs
       .sendForm(
@@ -50,16 +51,12 @@ const ContactModal = ({ closeModal }) => {
     );
   };
 
-  // const onSubmit = (data) => {
-  //   sendEmail(data);
-  // };
-
   const Submit = ({ title, className }) => {
     return (
       <div className="flex justify-center pt-8 pb-5">
         <button
           onClick={sendEmail}
-          className={`font-[Poppins] text-lg w-full rounded-[10px] py-4 px-4 border-black border-[1px] text-white bg-black ${className}`}
+          className={`font-[Poppins] text-lg w-full rounded-[10px] py-4 px-4 border-black border-[1px] text-white bg-blackhover:scale-105 ease-out duration-75 ${className}`}
           type="submit"
         >
           {title}

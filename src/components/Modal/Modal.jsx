@@ -8,7 +8,7 @@ const ReusableModal = ({ children }) => {
         animate={{ scale: 1 }}
         initial={{ scale: 0 }}
         transition={{ duration: 0.2 }}
-        className="w-fit position: relative bg-white m-auto p-9 rounded-xl box-border"
+        className="w-fit position: relative bg-white m-auto p-8 md:p-10 rounded-xl box-border"
       >
         {children}
       </motion.div>

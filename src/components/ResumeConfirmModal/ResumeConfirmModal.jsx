@@ -19,13 +19,13 @@ const ResumeConfirmModal = ({ handleCloseConfirmModal }) => {
             onClick={handleCloseConfirmModal}
             download="Mr. Phillippe Louis Resumé’ SE (6)"
             href="../../src/images/Resume.pdf"
-            className="py-4 px-6 bg-black text-white font-[Poppins] font-bold rounded-[10px] w-[150px] text-center"
+            className="py-4 px-6 bg-black text-white font-[Poppins] font-bold rounded-[10px] w-[150px] text-center hover:scale-105 ease-out duration-75"
           >
             Download
           </a>
           <button
             onClick={handleCloseConfirmModal}
-            className="py-4 px-6 bg-[#fb5252] text-white font-[Poppins] font-bold rounded-[10px] w-[150px]"
+            className="py-4 px-6 bg-[#fb5252] text-white font-[Poppins] font-bold rounded-[10px] w-[150px] hover:scale-105 ease-out duration-75"
           >
             Cancel
           </button>
