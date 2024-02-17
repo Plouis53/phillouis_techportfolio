@@ -19,7 +19,6 @@ const NewsExplorer = ({ showCard, category }) => {
         className="rounded-lg top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
       ></img>
       <div className="flex flex-col gap-[20px] justify-between h-fit-content xl:h-[550px] bg-white w-full mt-[-50px] p-[10px] rounded-lg">
-        {" "}
         <div className="flex gap-[10px] w-full border-b-[2px] border-black border-opacity-50">
           <h1 className="font-[Poppins] font-semibold text-black text-[20px] md:text-[25px]">
             {/* News Explorer */}
