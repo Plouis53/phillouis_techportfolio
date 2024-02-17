@@ -12,15 +12,14 @@ const ResumeConfirmModal = ({ handleCloseConfirmModal }) => {
       </button>
       <form className="m-8 flex flex-col gap-10 max-w-[175px] md:max-w-none">
         <h1 className=" text-base md:text-lg font-[Poppins] font-bold max-w-[400px] text-center text-black">
-          You are about to download my resumé as a PNG file, would you like to
-          continue?
+          Before proceeding, would you like to download my resume as a PNG file?
         </h1>
         <div className="flex flex-col items-center md:flex-row gap-5 md:justify-center">
           <a
             onClick={handleCloseConfirmModal}
             download="Mr. Phillippe Louis Resumé’ SE (6)"
             href="../../src/images/Resume.pdf"
-            className="py-4 px-6 bg-[#2dd13a] text-white font-[Poppins] font-bold rounded-[10px] w-[150px] text-center"
+            className="py-4 px-6 bg-black text-white font-[Poppins] font-bold rounded-[10px] w-[150px] text-center"
           >
             Download
           </a>
