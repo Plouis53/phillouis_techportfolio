@@ -1,7 +1,7 @@
 import React from "react";
 import Image1 from "../../images/Image1.png";
 
-const Background = ({ openModal }) => {
+const Background = ({ handleOpenConfirmModal }) => {
   return (
     <div
       id="about"
@@ -82,13 +82,12 @@ const Background = ({ openModal }) => {
               </p>
             </div>
           </div>
-          <a
-            download="Mr. Phillippe Louis Resumé’ SE (6)"
-            href="../../src/images/Resume.pdf"
+          <button
+            onClick={handleOpenConfirmModal}
             className="font-[Poppins] py-[10px] px-[40px] rounded-full bg-[#f5dfa1] text-black w-fit m-auto shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:scale-110 duration-[.5s] ease-in-out"
           >
             Resume
-          </a>
+          </button>
         </div>
         <div className="flex md:flex-col gap-[20px] align-center w-full md:max-w-[50%] h-[750px] rounded-xl">
           <div className="flex flex-col justify-between h-fit md:h-fit rounded-xl bg-[#363636] p-[20px] gap-[20px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">

@@ -29,5 +29,11 @@ module.exports = {
     "no-undef": [0], //?
     "no-unsafe-finally": [0], //?
     "react/no-children-prop": [0], //?
+    "react/no-unknown-property": [
+      "error",
+      {
+        ignore: ["errors", "register", "isValid"],
+      },
+    ],
   },
 };
