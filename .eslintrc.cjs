@@ -32,7 +32,7 @@ module.exports = {
     "react/no-unknown-property": [
       "error",
       {
-        ignore: ["errors", "register", "isValid"],
+        ignore: ["errors", "register", "isValid"], [0]
       },
     ],
   },
