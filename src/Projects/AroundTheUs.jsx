@@ -21,14 +21,11 @@ const AroundTheUs = ({ showCard, category }) => {
         Stackfour={HTML}
         Description={
           <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
-            Around the US is a JavaScript-exclusive project that prioritizes
-            Object-Oriented Programming (OOP) principles. It welcomes users with
-            a visually appealing website, designed with meticulous attention to
-            aesthetics. The platform operates as a personalized social media
-            page, empowering users to tailor it to their preferences. From
-            editing their profiles to uploading new photos and managing their
-            feed effortlessly, the user experience is seamless. Explore it
-            today!
+            Explore Around the US, a JavaScript project focused on
+            Object-Oriented Programming (OOP) principles. It's a visually
+            stunning website that acts like a personalized social media page.
+            Users can edit profiles, upload photos, and manage their feed with
+            ease. Check it out now!
           </p>
         }
         LiveSite={"https://plouis53.github.io/se_project_aroundtheus/"}
