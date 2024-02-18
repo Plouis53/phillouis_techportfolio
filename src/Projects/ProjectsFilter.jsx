@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-
 const ProjectsFilter = ({ handleProject }) => {
   return (
     <motion.div
@@ -9,7 +8,6 @@ const ProjectsFilter = ({ handleProject }) => {
       transition={{ type: "spring", stiffness: 300 }}
       className="flex flex-col bg-white w-[100%] position: absolute z-[2] mx-[-30px] lg:hidden"
     >
-      {" "}
       <button
         onClick={() => handleProject("all")}
         className="text-black font-[Poppins] p-[10px] border-black border-b-[1px]"
@@ -17,22 +15,16 @@ const ProjectsFilter = ({ handleProject }) => {
         Featured
       </button>
       <button
-        onClick={() => handleProject("HTML/CSS")}
+        onClick={() => handleProject("Front-End")}
         className="text-black font-[Poppins] p-[10px] border-black border-b-[1px]"
       >
-        HTML/CSS
+        Front-End
       </button>
       <button
-        onClick={() => handleProject("JavaScript")}
+        onClick={() => handleProject("Full-Stack")}
         className="text-black font-[Poppins] p-[10px] border-black border-b-[1px]"
       >
-        JavaScript
-      </button>
-      <button
-        onClick={() => handleProject("React")}
-        className="text-black font-[Poppins] p-[10px] border-black border-b-[1px]"
-      >
-        React
+        Full-Stack
       </button>
     </motion.div>
   );

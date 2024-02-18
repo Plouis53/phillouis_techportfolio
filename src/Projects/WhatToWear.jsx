@@ -5,6 +5,7 @@ import React from "../assets/React.svg";
 import WTWR1 from "../images/WTWR1.png";
 import NODE from "../assets/NODE.svg";
 import Mongo from "../assets/Mongodb.svg";
+import ProjectCard from "../components/ProjectCard/ProjectCard";
 
 const WhatToWear = ({ showCard, category }) => {
   return (
@@ -13,75 +14,27 @@ const WhatToWear = ({ showCard, category }) => {
         showCard === "all" || showCard === category ? "block" : "hidden"
       }`}
     >
-      <img
-        src={WTWR1}
-        alt="Image from project"
-        className="rounded-lg top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
-      ></img>
-      <div className="flex flex-col gap-[20px] justify-between h-fit xl:h-[570px] bg-white w-full mt-[-50px] p-[10px] rounded-lg">
-        {" "}
-        <div className="flex gap-[10px] w-full border-b-[2px] border-black border-opacity-50">
-          <h1 className="font-[Poppins] font-semibold text-ellipsis overflow-hidden whitespace-nowrap text-black text-[20px] md:text-[25px]">
-            WTWR
-          </h1>
-          <img
-            src={HTML}
-            alt="html logo"
-            className="h-[35px] w-[35px] self-center"
-          ></img>
-          <img
-            src={CSS}
-            alt="CSS logo"
-            className="h-[35px] w-[35px] self-center"
-          ></img>
-          <img src={JS} className="h-[35px] w-[35px] self-center"></img>
-          <img src={React} className="h-[35px] w-[35px] self-center"></img>
-          <img
-            src={NODE}
-            alt="Node logo"
-            className="h-[35px] w-[35px] self-center"
-          ></img>
-          <img
-            src={Mongo}
-            alt="Mongodb logo"
-            className="h-[35px] w-[35px] self-center"
-          ></img>
-          <img
-            src={React}
-            alt="react.js logo"
-            className="h-[35px] w-[35px] self-center"
-          ></img>
-        </div>
-        <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
-          What to Wear is an incredibly user-friendly app featuring a clean and
-          intuitive design. Users have the option to create personalized
-          profiles, edit their names, and customize avatars. By adding their
-          location, the app provides clothing recommendations based on their
-          uploaded closet items, ensuring a tailored experience. This project
-          was expertly developed using React.js! Furthermore, it's worth
-          mentioning another project I worked on a front-end app that showcases
-          user-authored cards with Like counts. I meticulously crafted this
-          responsive front-end using HTML, CSS, and JavaScript, and subsequently
-          deployed it on GitHub. The codebase was optimized with reusable and
-          dynamic card components, enhancing user interaction.
-        </p>
-        <div className="flex gap-3">
-          <button className="px-[30px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
-            Live site
-          </button>
-          <a href="https://styleguide.mooo.com/"></a>
-          <a href="https://github.com/Plouis53/se_project_react.git">
-            <button className="px-[20px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
-              Frontend Code
-            </button>
-          </a>
-        </div>
-        {/* <a href="https://github.com/Plouis53/se_project_express.git">
-          <button className="px-[20px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
-            Backend Code
-          </button>
-        </a> */}
-      </div>
+      <ProjectCard
+        title={"What to Wear"}
+        ProjectImage={WTWR1}
+        Stackone={React}
+        Stacktwo={JS}
+        Stackthree={Mongo}
+        // Stackfour={NODE}
+        Description={
+          <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
+            What to Wear is a user-friendly app with personalized profiles and
+            location-based clothing recommendations, built with React.js.
+            Additionally, I developed a front-end app displaying user-authored
+            cards with Like counts, using HTML, CSS, and JavaScript. The
+            responsive design features dynamic card components for improved user
+            interaction.
+          </p>
+        }
+        LiveSite={"https://styleguide.mooo.com/"}
+        Code={"https://github.com/Plouis53/se_project_react.git"}
+        className={undefined}
+      />
     </div>
   );
 };

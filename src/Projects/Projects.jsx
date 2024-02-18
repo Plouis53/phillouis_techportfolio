@@ -1,8 +1,6 @@
 import NewsExplorer from "../Projects/NewsExplorer.jsx";
 import WhatToWear from "../Projects/WhatToWear.jsx";
 import AroundTheUs from "../Projects/AroundTheUs.jsx";
-import PracticumCoffeeShop from "../Projects/PracticumCoffeeShop.jsx";
-// import PracticumLibrary from "../Projects/PracticumLibrary.jsx";
 import MyPortfolio from "../Projects/Portfolio.jsx";
 import ProjectsFilter from "./ProjectsFilter.jsx";
 import { useState } from "react";
@@ -52,33 +50,24 @@ const Projects = () => {
           Featured
         </button>
         <button
-          onClick={() => handleProject("HTML/CSS")}
+          onClick={() => handleProject("Front-End")}
           className="bg-[#2b2b2b] text-white font-[Poppins] font-semibold px-[30px] py-[10px] rounded-lg hover:bg-[#656565] hover:scale-110 ease-in-out duration-[.5s]"
         >
-          HTML/CSS
+          Front-End
         </button>
         <button
-          onClick={() => handleProject("JavaScript")}
+          onClick={() => handleProject("Full-Stack")}
           className="bg-[#2b2b2b] text-white font-[Poppins] font-semibold px-[30px] py-[10px] rounded-lg hover:bg-[#656565] hover:scale-110 ease-in-out duration-[.5s]"
         >
-          JavaScript
-        </button>
-        <button
-          onClick={() => handleProject("React")}
-          className="bg-[#2b2b2b] text-white font-[Poppins] font-semibold px-[30px] py-[10px] rounded-lg hover:bg-[#656565] hover:scale-110 ease-in-out duration-[.5s]"
-        >
-          React
+          Full-Stack
         </button>
       </div>
       <div className="mt-[100px] flex flex-col items-center md:flex-row md:justify-center md:gap-[20px]"></div>
-      {/* adjust accordingly */}
-      <MyPortfolio category="React" showCard={showCard} />
+      <MyPortfolio category="Front-End" showCard={showCard} />
       <div className="mt-[100px] flex flex-col md:justify-center md:flex-row md:gap-[20px]">
-        <NewsExplorer category="React" showCard={showCard} />
-        <WhatToWear category="React" showCard={showCard} />
-        <AroundTheUs category="JavaScript" showCard={showCard} />
-        <PracticumCoffeeShop category="HTML/CSS" showCard={showCard} />
-        {/* <PracticumLibrary category="HTML/CSS" showCard={showCard} /> */}
+        <NewsExplorer category="Full-Stack" showCard={showCard} />
+        <WhatToWear category="Full-Stack" showCard={showCard} />
+        <AroundTheUs category="Front-End" showCard={showCard} />
       </div>
     </div>
   );

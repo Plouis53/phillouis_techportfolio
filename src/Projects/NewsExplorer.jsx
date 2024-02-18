@@ -1,10 +1,9 @@
-import HTML from "../assets/HTML.svg";
-import CSS from "../assets/CSS.svg";
 import JS from "../assets/JS.svg";
 import NewsEx1 from "../images/NewsEx1.png";
 import React from "../assets/React.svg";
 import NODE from "../assets/NODE.svg";
 import Mongo from "../assets/Mongodb.svg";
+import ProjectCard from "../components/ProjectCard/ProjectCard";
 
 const NewsExplorer = ({ showCard, category }) => {
   return (
@@ -13,80 +12,28 @@ const NewsExplorer = ({ showCard, category }) => {
         showCard === "all" || showCard === category ? "block" : "hidden"
       }`}
     >
-      <img
-        src={NewsEx1}
-        alt="New Explorer Photo"
-        className="rounded-lg top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
-      ></img>
-      <div className="flex flex-col gap-[20px] justify-between h-fit-content xl:h-[550px] bg-white w-full mt-[-50px] p-[10px] rounded-lg">
-        <div className="flex gap-[10px] w-full border-b-[2px] border-black border-opacity-50">
-          <h1 className="font-[Poppins] font-semibold text-black text-[20px] md:text-[25px]">
-            {/* News Explorer */}
-            NE
-          </h1>
-          <img
-            src={HTML}
-            alt="html logo"
-            className="h-[35px] w-[35px] self-center"
-          ></img>
-          <img
-            src={CSS}
-            alt="CSS logo"
-            className="h-[35px] w-[35px] self-center"
-          ></img>
-          <img
-            src={JS}
-            alt="JavaScript logo"
-            className="h-[35px] w-[35px] self-center"
-          ></img>
-          <img
-            src={React}
-            alt="React logo"
-            className="h-[35px] w-[35px] self-center"
-          ></img>
-          <img
-            src={NODE}
-            alt="Node.js logo"
-            className="h-[35px] w-[35px] self-center"
-          ></img>
-          <img
-            src={Mongo}
-            alt="Mongodb logo"
-            className="h-[35px] w-[35px] self-center"
-          ></img>
-        </div>
-        <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
-          News Explorer is an exciting project—a news app developed using React
-          and Django, thoughtfully integrated with APIs for article curation.
-          The project boasts robust security measures, including JWT and bcrypt
-          for authentication. My responsibilities included designing and
-          implementing API endpoints, enabling seamless MongoDB integration for
-          efficient data storage, all while harnessing the power of Google Cloud
-          Platform (GCP). To ensure an optimized user experience, I employed
-          JavaScript to craft an efficient search feature. This project
-          showcases my ability to build complex applications and underscores my
-          commitment to delivering secure and user-friendly solutions.
-          <span className="font-[Poppins] font-semibold text-[#fc6161] text-[14px] xs:text-[15px]">
-            {" "}
-          </span>
-        </p>
-        <div className="flex gap-3">
-          <button className="px-[20px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
-            Live site
-          </button>
-          <a href="https://newsquest.mooo.com/"></a>
-          <a href="https://github.com/Plouis53/news-explorer-frontend.git">
-            <button className="px-[20px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
-              Frontend Code
-            </button>
-          </a>
-        </div>
-        {/* <a href="https://github.com/Plouis53/news-explorer-backend.git">
-          <button className="px-[20px] py-[5px] bg-[#2b2b2b] w-fit rounded-md text-white font-[Poppins] hover:scale-105 ease-in-out duration-[.5s]">
-            Backend Code
-          </button>
-        </a> */}
-      </div>
+      <ProjectCard
+        title={"News Explorer"}
+        ProjectImage={NewsEx1}
+        Stackone={React}
+        Stacktwo={JS}
+        Stackthree={Mongo}
+        Stackfour={NODE}
+        Description={
+          <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
+            News Explorer is a dynamic news app built with React and Django,
+            featuring API integration for curated articles. I played a key role
+            in designing and implementing API endpoints, optimizing MongoDB
+            integration, and ensuring top-notch security with JWT and bcrypt.
+            Leveraging Google Cloud Platform, I crafted efficient search
+            functionality to enhance user experience. This project highlights my
+            expertise in building secure and user-friendly applications.
+          </p>
+        }
+        LiveSite={"https://newsquest.mooo.com/"}
+        Code={"https://github.com/Plouis53/news-explorer-frontend.git"}
+        className={undefined}
+      />
     </div>
   );
 };

@@ -1,6 +1,5 @@
 //* Component imports
 import React, { useEffect, useState } from "react";
-// import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Nav from "../Nav/Nav.jsx";
 import Hero from "../Hero/Hero.jsx";
 import Projects from "../../Projects/Projects.jsx";
