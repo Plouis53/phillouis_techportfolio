@@ -62,9 +62,8 @@ const Projects = () => {
           Full-Stack
         </button>
       </div>
-      <div className="mt-[100px] flex flex-col items-center md:flex-row md:justify-center md:gap-[20px]"></div>
-      <MyPortfolio category="Front-End" showCard={showCard} />
-      <div className="mt-[100px] flex flex-col md:justify-center md:flex-row md:gap-[20px]">
+      <div className="mt-[100px] flex flex-wrap justify-center gap-[20px]">
+        <MyPortfolio category="Front-End" showCard={showCard} />
         <NewsExplorer category="Full-Stack" showCard={showCard} />
         <WhatToWear category="Full-Stack" showCard={showCard} />
         <AroundTheUs category="Front-End" showCard={showCard} />
@@ -72,4 +71,5 @@ const Projects = () => {
     </div>
   );
 };
+
 export default Projects;
