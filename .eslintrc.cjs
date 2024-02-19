@@ -10,29 +10,28 @@ module.exports = {
   ignorePatterns: ["dist", ".eslintrc.cjs"],
   parserOptions: { ecmaVersion: "latest", sourceType: "module" },
   settings: { react: { version: "18.2" } },
-
   plugins: ["react"],
   rules: {
-    "react/prop-types": [0],
-    "react/no-unescaped-entities": [0],
-    "no-empty": [0], // ?
-    "no-misleading-character-class": [0], //?
-    "no-useless-escape": [0], //?
-    "no-prototype-builtins": [0], //?
-    "no-cond-assign": [0], //?
-    "no-unused-vars": [0], // ?
-    "no-fallthrough": [0], //?
-    "no-func-assign": [0], //?
-    "getter-return": [0], //?
-    "valid-typeof": [0], //?
-    "no-control-regex": [0], //?
-    "no-undef": [0], //?
-    "no-unsafe-finally": [0], //?
-    "react/no-children-prop": [0], //?
+    "react/prop-types": "off",
+    "react/no-unescaped-entities": "off",
+    "no-empty": "off",
+    "no-misleading-character-class": "off",
+    "no-useless-escape": "off",
+    "no-prototype-builtins": "off",
+    "no-cond-assign": "off",
+    "no-unused-vars": "off",
+    "no-fallthrough": "off",
+    "no-func-assign": "off",
+    "getter-return": "off",
+    "valid-typeof": "off",
+    "no-control-regex": "off",
+    "no-undef": "off",
+    "no-unsafe-finally": "off",
+    "react/no-children-prop": "off",
     "react/no-unknown-property": [
       "error",
       {
-        ignore: ["errors", "register", "isValid"], [0]
+        ignore: ["errors", "register", "isValid"],
       },
     ],
   },
