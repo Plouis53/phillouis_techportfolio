@@ -4,6 +4,8 @@ import CSS from "../assets/CSS.svg";
 import JS from "../assets/JS.svg";
 import US from "../images/Us.png";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
+// import Typescript from "../assets/Typescript.svg"
+
 
 const AroundTheUs = ({ showCard, category }) => {
   return (
@@ -18,7 +20,7 @@ const AroundTheUs = ({ showCard, category }) => {
         Stackone={HTML}
         Stacktwo={CSS}
         Stackthree={JS}
-        Stackfour={HTML}
+        // Stackfour={HTML}
         Description={
           <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
             Explore Around the US, a JavaScript project focused on
