@@ -57,7 +57,7 @@ const Testimonials = ({ openModal }) => {
               <div className="flex flex-col">
                 <span>Joshua Horwitz</span>
                 <span className="text-[12px]">
-                  Tutor / Technical Writer / Interview Coach
+                  Senior Software Engineer | Technical Writer | Interview Coach
                 </span>
               </div>
             </div>
