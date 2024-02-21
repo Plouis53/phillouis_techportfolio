@@ -71,7 +71,7 @@ const Nav = ({ openModal }) => {
           >
             <li className="text-white font-[Poppins] text-[18px]">
               Testimonials
-            </li>
+            </li>{" "}
           </Link>
           <Link
             onClick={openModal}

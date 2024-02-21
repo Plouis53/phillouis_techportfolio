@@ -24,11 +24,9 @@ const WhatToWear = ({ showCard, category }) => {
         Description={
           <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
             What to Wear is a user-friendly app with personalized profiles and
-            location-based clothing recommendations, built with React.js.
-            Additionally, I developed a front-end app displaying user-authored
-            cards with Like counts, using HTML, CSS, and JavaScript. The
-            responsive design features dynamic card components for improved user
-            interaction.
+            location-based clothing recommendations, built using React.js. It
+            includes user-authored cards with Like counts and a responsive
+            design for improved user interaction.
           </p>
         }
         LiveSite={"https://styleguide.mooo.com/"}

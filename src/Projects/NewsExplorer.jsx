@@ -20,13 +20,12 @@ const NewsExplorer = ({ showCard, category }) => {
         Stackthree={Mongo}
         Stackfour={NODE}
         Description={
-          <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
-            News Explorer is a news app built with React and Django, featuring
-            API integration for curated articles. I've implemented API
-            endpoints, optimizing MongoDB integration, and ensured security with
-            JWT and bcrypt. Leveraging Google Cloud Platform, I crafted a search
-            function to enhance user experience. This project highlights my
-            expertise in building secure and user-friendly applications.
+          <p className="font-[Poppins] text-black text-[14px] xs:text-[12px]">
+            News Explorer, a React and Django news app, integrates APIs for
+            curated articles. I've optimized MongoDB integration, ensured
+            security with JWT and bcrypt, and created a search function on
+            Google Cloud Platform. This project showcases my ability to build
+            secure, user-friendly apps
           </p>
         }
         LiveSite={"https://newsquest.mooo.com/"}
