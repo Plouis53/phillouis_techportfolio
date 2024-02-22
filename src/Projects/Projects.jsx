@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import SynthesisWorkshop from "../Projects/Synthesis-Workshop.jsx";
 import NewsExplorer from "../Projects/NewsExplorer.jsx";
 import WhatToWear from "../Projects/WhatToWear.jsx";
 import AroundTheUs from "../Projects/AroundTheUs.jsx";
@@ -60,6 +61,7 @@ const Projects = () => {
         <NewsExplorer category="Full-Stack" showCard={showCard} />
         <WhatToWear category="Full-Stack" showCard={showCard} />
         <AroundTheUs category="Front-End" showCard={showCard} />
+        <SynthesisWorkshop category="Full-Stack" showCard={showCard} />
         {/* Project components */}
       </div>
     </div>

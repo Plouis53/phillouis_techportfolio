@@ -1,5 +1,5 @@
 import React from "react";
-import TS from "../assets/Typscript.svg";
+// import TSLogo from "../assets/Typecript.svg";
 import SynthesisWorkshop1 from "../images/Synthesis-Workshop.png";
 import ReactLogo from "../assets/React.svg";
 import NODE from "../assets/NODE.svg";
@@ -16,7 +16,7 @@ const SynthesisWorkshop = ({ showCard, category }) => {
         title={"Synthesis-Workshop"}
         ProjectImage={SynthesisWorkshop1}
         Stackone={ReactLogo}
-        Stacktwo={TS}
+        // Stacktwo={}
         Stackthree={NODE}
         Description={
           <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
