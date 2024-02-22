@@ -20,7 +20,7 @@ const NewsExplorer = ({ showCard, category }) => {
         Stackthree={Mongo}
         Stackfour={NODE}
         Description={
-          <p className="font-[Poppins] text-black text-[14px] xs:text-[12px]">
+          <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
             News Explorer, a React and Django news app, integrates APIs for
             curated articles. I've optimized MongoDB integration, ensured
             security with JWT and bcrypt, and created a search function on
