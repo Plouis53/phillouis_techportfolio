@@ -1,29 +1,21 @@
+import React, { useState } from "react";
+import ProjectsFilter from "./ProjectsFilter.jsx";
 import NewsExplorer from "../Projects/NewsExplorer.jsx";
 import WhatToWear from "../Projects/WhatToWear.jsx";
 import AroundTheUs from "../Projects/AroundTheUs.jsx";
 import MyPortfolio from "../Projects/Portfolio.jsx";
-import ProjectsFilter from "./ProjectsFilter.jsx";
-import { useState } from "react";
-import React from "react";
 
 const Projects = () => {
   const [showCard, setShowCard] = useState("all");
+  const [dropDown, setDropDown] = useState(false);
+
   const handleProject = (category) => {
     setShowCard(category);
-    handleOpenDropDown();
+    setDropDown(false);
   };
 
-  const [dropDown, setDropDown] = useState(true);
-
-  const handleOpenDropDown = () => {
+  const handleToggleDropDown = () => {
     setDropDown(!dropDown);
-    handleButtonClick();
-  };
-
-  const [isRotated, setIsRotated] = useState(false);
-
-  const handleButtonClick = () => {
-    setIsRotated(!isRotated);
   };
 
   return (
@@ -36,29 +28,21 @@ const Projects = () => {
           My Projects
         </h1>
         <button
+          onClick={handleToggleDropDown}
           className={`bg-Menu w-[30px] h-[30px] self-center mb-[10px] rotate lg:hidden ${
-            isRotated ? "active" : ""
+            dropDown ? "active" : ""
           }`}
         ></button>
       </div>
-      {dropDown === false && <ProjectsFilter handleProject={handleProject} />}
+      {dropDown && <ProjectsFilter handleProject={handleProject} />}{" "}
       <div className="hidden md:flex gap-[50px] mt-[50px] justify-center">
-        <button
-          onClick={() => handleProject("all")}
-          className="bg-[#2b2b2b] text-white font-[Poppins] font-semibold px-[30px] py-[10px] rounded-lg hover:bg-[#656565] hover:scale-110 ease-in-out duration-[.5s]"
-        >
+        <button onClick={() => handleProject("all")} className="...">
           Featured
         </button>
-        <button
-          onClick={() => handleProject("Front-End")}
-          className="bg-[#2b2b2b] text-white font-[Poppins] font-semibold px-[30px] py-[10px] rounded-lg hover:bg-[#656565] hover:scale-110 ease-in-out duration-[.5s]"
-        >
+        <button onClick={() => handleProject("Front-End")} className="...">
           Front-End
         </button>
-        <button
-          onClick={() => handleProject("Full-Stack")}
-          className="bg-[#2b2b2b] text-white font-[Poppins] font-semibold px-[30px] py-[10px] rounded-lg hover:bg-[#656565] hover:scale-110 ease-in-out duration-[.5s]"
-        >
+        <button onClick={() => handleProject("Full-Stack")} className="...">
           Full-Stack
         </button>
       </div>

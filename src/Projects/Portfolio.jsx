@@ -1,6 +1,7 @@
+import React from "react";
 import Tailwind from "../assets/Tailwind.svg";
-import React from "../assets/React.svg";
-import Portfolio from "../images/Portfolio.png";
+import ReactLogo from "../assets/React.svg";
+import PortfolioImage from "../images/Portfolio.png";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
 import NODE from "../assets/NODE.svg";
 
@@ -13,17 +14,17 @@ const MyPortfolio = ({ showCard, category }) => {
     >
       <ProjectCard
         title={"My Portfolio"}
-        ProjectImage={Portfolio}
-        Stackone={React}
+        ProjectImage={PortfolioImage}
+        Stackone={ReactLogo}
         Stacktwo={Tailwind}
         Stackthree={NODE}
         Description={
           <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
-          The website you're currently exploring was created using React and
-          Tailwind CSS. My portfolio offers you insights into both my role as a
-          developer and a project manager! Feel free to click the 'Contact'
-          option found in both the Navigation and About Me sections to access a
-          form for reaching out to me.
+            The website you're currently exploring was created using React and
+            Tailwind CSS. My portfolio offers you insights into both my role as
+            a developer and a project manager! Feel free to click the 'Contact'
+            option found in both the Navigation and About Me sections to access
+            a form for reaching out to me.
           </p>
         }
         LiveSite={"https://prlouisportfolio.com/"}
