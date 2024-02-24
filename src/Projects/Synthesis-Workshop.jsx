@@ -18,19 +18,16 @@ const SynthesisWorkshop = ({ showCard, category }) => {
         Stackone={ReactLogo}
         // Stacktwo={}
         Stackthree={NODE}
-        Description={
-          <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
-            The Synthesis-Workshop project is an educational platform for
-            chemistry enthusiasts, including a video podcast platform for
-            experts. The platform showcases recent publications to enhance
-            chemistry education. I developed a versatile PublicationCard
-            component.Technologies used: React, CSS, Express, MongoDB.
-          </p>
-        }
+        Description={<p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
+          The Synthesis-Workshop project is an educational platform for
+          chemistry enthusiasts, including a video podcast platform for
+          experts. The platform showcases recent publications to enhance
+          chemistry education. I developed a versatile PublicationCard
+          component.Technologies used: React, CSS, Express, MongoDB.
+        </p>}
         LiveSite={""}
         Code={"https://github.com/synthesis-workshop/frontend"}
-        className={undefined}
-      />
+        className={undefined} Stacktwo={undefined}      />
     </div>
   );
 };
