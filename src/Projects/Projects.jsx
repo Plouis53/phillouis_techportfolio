@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SynthesisWorkshop from "../Projects/Synthesis-Workshop.jsx";
+// import SynthesisWorkshop from "../Projects/Synthesis-Workshop.jsx";
 import NewsExplorer from "../Projects/NewsExplorer.jsx";
 import WhatToWear from "../Projects/WhatToWear.jsx";
 import AroundTheUs from "../Projects/AroundTheUs.jsx";
