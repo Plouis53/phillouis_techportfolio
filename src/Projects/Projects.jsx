@@ -61,7 +61,7 @@ const Projects = () => {
         <NewsExplorer category="Full-Stack" showCard={showCard} />
         <WhatToWear category="Full-Stack" showCard={showCard} />
         <AroundTheUs category="Front-End" showCard={showCard} />
-        <SynthesisWorkshop category="Full-Stack" showCard={showCard} />
+        {/* <SynthesisWorkshop category="Full-Stack" showCard={showCard} /> */}
         {/* Project components */}
       </div>
     </div>
