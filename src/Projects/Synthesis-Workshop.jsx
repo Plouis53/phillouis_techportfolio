@@ -1,5 +1,5 @@
 import React from "react";
-// import TSLogo from "../assets/Typecript.svg";
+import TSLogo from "../assets/TypeScript.svg";
 import SynthesisWorkshop1 from "../images/Synthesis-Workshop.png";
 import ReactLogo from "../assets/React.svg";
 import NODE from "../assets/NODE.svg";
@@ -16,18 +16,21 @@ const SynthesisWorkshop = ({ showCard, category }) => {
         title={"Synthesis-Workshop"}
         ProjectImage={SynthesisWorkshop1}
         Stackone={ReactLogo}
-        // Stacktwo={}
-        Stackthree={NODE}
-        Description={<p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
-          The Synthesis-Workshop project is an educational platform for
-          chemistry enthusiasts, including a video podcast platform for
-          experts. The platform showcases recent publications to enhance
-          chemistry education. I developed a versatile PublicationCard
-          component.Technologies used: React, CSS, Express, MongoDB.
-        </p>}
+        Stacktwo={NODE}
+        Stackthree={TSLogo}
+        Description={
+          <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
+            The Synthesis-Workshop project is an educational platform for
+            chemistry enthusiasts, including a video podcast platform for
+            experts. The platform showcases recent publications to enhance
+            chemistry education. I developed a versatile PublicationCard
+            component.Technologies used: React, CSS, Express, MongoDB.
+          </p>
+        }
         LiveSite={""}
         Code={"https://github.com/synthesis-workshop/frontend"}
-        className={undefined} Stacktwo={undefined}      />
+        className={undefined}
+      />
     </div>
   );
 };
