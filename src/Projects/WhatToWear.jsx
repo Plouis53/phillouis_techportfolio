@@ -1,9 +1,9 @@
-import HTML from "../assets/HTML.svg";
-import CSS from "../assets/CSS.svg";
+// import HTML from "../assets/HTML.svg";
+// import CSS from "../assets/CSS.svg";
 import JS from "../assets/JS.svg";
 import React from "../assets/React.svg";
 import WTWR1 from "../images/WTWR1.png";
-import NODE from "../assets/NODE.svg";
+// import NODE from "../assets/NODE.svg";
 import Mongo from "../assets/Mongodb.svg";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
 

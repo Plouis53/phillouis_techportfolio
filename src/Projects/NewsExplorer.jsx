@@ -1,7 +1,7 @@
 import JS from "../assets/JS.svg";
 import NewsEx1 from "../images/NewsEx1.png";
 import React from "../assets/React.svg";
-import NODE from "../assets/NODE.svg";
+// import NODE from "../assets/NODE.svg";
 import Mongo from "../assets/Mongodb.svg";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
 
@@ -18,7 +18,7 @@ const NewsExplorer = ({ showCard, category }) => {
         Stackone={React}
         Stacktwo={JS}
         Stackthree={Mongo}
-        Stackfour={NODE}
+        // Stackfour={NODE}
         Description={
           <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
             News Explorer, a React and Django news app, integrates APIs for

@@ -26,13 +26,6 @@ const ResumeConfirmModal = ({ handleCloseConfirmModal }) => {
       >
         X
       </button>
-
-      {/* <button
-        onClick={handleCloseConfirmModal}
-        className="text-black text-[20px] font-semibold position:absolute w-[30px] h-[30px] bg-no-repeat top-3 right-3"
-      >
-        X
-      </button> */}
       <form className="m-8 flex flex-col gap-10 max-w-[175px] md:max-w-none">
         <h1 className=" text-base md:text-lg font-[Poppins] font-bold max-w-[400px] text-center text-black">
           Before proceeding, would you like to download my resume as a PNG file?

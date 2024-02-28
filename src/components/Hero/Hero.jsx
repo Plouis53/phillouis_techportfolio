@@ -1,6 +1,7 @@
 import Typewriter from "typewriter-effect";
 import Portrait4 from "../../images/Portrait4.png";
-import PortraitMobile from "../../images/PortraitMobile.png";
+// import PortraitMobile from "../../images/PortraitMobile.png";
+import Image2 from "../../images/Image2.png";
 import CSS from "../../assets/CSS.svg";
 import HTML from "../../assets/HTML.svg";
 import Tailwind from "../../assets/Tailwind.svg";
@@ -8,6 +9,7 @@ import JS from "../../assets/JS.svg";
 import React from "../../assets/React.svg";
 import NODE from "../../assets/NODE.svg";
 import Mongo from "../../assets/Mongodb.svg";
+import TSLogo from "../../assets/TypeScript4.svg";
 
 const Hero = () => {
   return (
@@ -15,7 +17,7 @@ const Hero = () => {
       <div className="flex flex-col  m-auto text-center xl:w-[850px] xl:text-start">
         <div className="xl:hidden w-[200px] border-white border-[1px] mx-auto mb-[30px] rounded-[10px] p-[5px] shadow-[rgba(255,_255,_255,_0.50)_0px_3px_8px]">
           <img
-            src={PortraitMobile}
+            src={Portrait4}
             alt="portraitmobile"
             className="xl:hidden w-[200px] rounded-[10px]"
           ></img>
@@ -88,11 +90,16 @@ const Hero = () => {
             alt="Mongo logo"
             className="w-[45px] xs:w-[50px] xl:w-[90px]"
           ></img>
+          <img
+            src={TSLogo}
+            alt="TypeScript logo"
+            className="w-[30px] xs:w-[40px] xl:w-[60px]"
+          ></img>
         </div>
       </div>
-      <div className="hidden xl:flex bg-white h-[350px] bg-opacity-50 w-[350px] m-auto mt-[200px] xl:mt-[100px] rounded-t-[200px] rounded-b-[10px] position: relative">
+      <div className="hidden xl:flex bg-white h-[390px] bg-opacity-50 w-[350px] m-auto mt-[200px] xl:mt-[100px] rounded-t-[200px] rounded-b-[10px] position: relative">
         <img
-          src={Portrait4}
+          src={Image2}
           alt="portrait"
           className=" h-[500px] w-[350px] rounded-[10px] position: absolute bottom-0"
         ></img>
