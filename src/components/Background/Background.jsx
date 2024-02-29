@@ -99,30 +99,15 @@ const Background = ({ handleOpenConfirmModal }) => {
               ></img>
             </div>
             <p className="font-[Poppins] text-[14px] xs:text-[15px] text-white text-center">
-              I'm Phillippe Louis, a passionate web and app designer. I love
-              creating visually appealing and user-friendly digital experiences.
-              My journey in web development began with a curiosity for turning
-              ideas into interactive websites. I'm skilled in front-end and
-              back-end technologies, specializing in React.js, Typescript,
-              Node.js, and MongoDB. I'm experienced in Git and GitHub for
-              project management. Let's work together to bring ideas to life.
-              {/* My name is Phillippe Louis and I am a passionate web and
-              application designer with a deep love for creating visually
-              captivating and user-friendly digital experiences. My journey in
-              the world of web development began with a curiosity for turning
-              ideas into interactive and functional websites. Over the years,
-              I've honed my skills in both front-end and back-end technologies,
-              making me a versatile developer ready to take on any challenge. On
-              the front-end, I specialize in crafting dynamic and engaging user
-              interfaces using Typescript, JavaScript, React.js, HTML, CSS3, and
-              the powerful Tailwind CSS framework. When it comes to the
-              back-end, my tech stack is fortified with Node.js, Express.js,
-              MongoDB, and Google Cloud. In addition to my technical skills, I'm
-              highly experienced in using Git and GitHub for project management
-              and collaboration. Whether it's a personal project or a
-              collaborative effort, I'm always eager to tackle new challenges
-              and bring ideas to life. Feel free to reach out, and let's work
-              together to create something amazing! */}
+              As a passionate web and app designer, I specialize in crafting
+              visually appealing and user-friendly digital experiences. My
+              expertise spans front-end and back-end technologies, including
+              React.js, Typescript, Node.js, and MongoDB. Additionally, I'm
+              proficient in version control with Git and collaboration platforms
+              like GitHub. Alongside my technical skills, I have experience in
+              project management tools and methodologies, ensuring smooth
+              collaboration and efficient workflows. Let's work together to
+              bring your ideas to life.
             </p>
             <div className="flex flex-wrap justify-center gap-[10px] mt-[15px] mb-[10px]">
               <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">

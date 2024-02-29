@@ -43,16 +43,14 @@ const Hero = () => {
           </span>
         </h1>
         <p className="font-[Poppins] text-white text-center xl:text-start xl:max-w-[600px] text-[15px] xl:text-[20px] mt-[12px]">
-          I am a passionate web and app designer with a knack for crafting
-          visually captivating and user-friendly digital experiences. I bring a
-          well-rounded skill set to every project. On the front-end, I
-          specialize in creating engaging user interfaces using Typescript,
-          JavaScript, React.js, HTML, CSS 3, and Tailwind CSS. My designs aim to
-          delight users and ensure smooth interactions. In the back-end realm, I
-          rely on Node.js and Express.js to build robust server-side
-          applications. I use MongoDB for efficient data management and leverage
-          Google Cloud for scalable solutions. Let us collaborate to bring your
-          digital ideas to life!
+          A digital craftsman on a mission to shape exceptional experiences.
+          Let's collaborate to craft digital wonders that captivate and inspire.
+          Front-end explorer by day, back-end architect by night—ready to turn
+          your ideas into reality. With a keen eye for detail and strong project
+          management skills, I ensure smooth sailing from concept to launch.
+          Crafting interfaces that are as delightful as they are functional.
+          From TypeScript to MongoDB, let's build something amazing together!
+          Ready to bring your digital dreams to life? Let's make it happen! ✨
         </p>
         <div className="flex justify-center xl:justify-start mt-[20px] w-full xl:ml-[-10px] xl:jusify-center">
           <img
