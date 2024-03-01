@@ -64,15 +64,14 @@ const Testimonials = ({ openModal }) => {
           </div>
           <div className="bg-[#2b2b2b] rounded-[10px] p-[20px] mt-[20px] max-w-[500px] h-fit md:h-[275px] shadow-[rgba(255,_255,_255,_0.24)_0px_3px_8px]">
             <p className="font-[Poppins] text-white text-[14px]">
-              "During their time in coding bootcamp, Phillippe Louis
-              demonstrated dedication and enthusiasm for learning. He
-              consistently exhibited a strong work ethic, tackling challenging
-              coding tasks with determination and perseverance. Phillippe was
-              not only a valuable contributor to group projects but also a
-              supportive team member, always willing to offer assistance and
-              collaborate with peers. With Phillippe positive attitude, He
-              proved themselves to be a promising talent in the field of
-              software development."
+              "During our time in coding bootcamp, Phillippe Louis demonstrated
+              dedication and enthusiasm for learning. He consistently exhibited
+              a strong work ethic, tackling challenging coding tasks with
+              determination and perseverance. Phillippe was not only a valuable
+              contributor to group projects but also a supportive team member,
+              always willing to offer assistance and collaborate with peers.
+              With Phillippe positive attitude, He proved themselves to be a
+              promising talent in the field of software development."
             </p>
           </div>
         </div>
