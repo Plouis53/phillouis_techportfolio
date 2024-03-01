@@ -5,3 +5,16 @@
 .my-class {
   background-image: url("../src/assets/Filter.svg");
 }
+
+@keyframes colorTransition {
+  0% {
+    color: #7851a9; /* Start color */
+  }
+  100% {
+    color: #cfb53b; /* End color */
+  }
+}
+
+.color-transition {
+  animation: colorTransition 3s linear infinite alternate; /* Adjust the animation duration and timing as needed */
+}

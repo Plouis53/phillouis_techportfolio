@@ -99,15 +99,10 @@ const Background = ({ handleOpenConfirmModal }) => {
               ></img>
             </div>
             <p className="font-[Poppins] text-[14px] xs:text-[15px] text-white text-center">
-              As a passionate web and app designer, I specialize in crafting
-              visually appealing and user-friendly digital experiences. My
-              expertise spans front-end and back-end technologies, including
-              React.js, Typescript, Node.js, and MongoDB. Additionally, I'm
-              proficient in version control with Git and collaboration platforms
-              like GitHub. Alongside my technical skills, I have experience in
-              project management tools and methodologies, ensuring smooth
-              collaboration and efficient workflows. Let's work together to
-              bring your ideas to life.
+              I'm a passionate web and app designer with expertise in React.js,
+              Javascipt, Typescript, Node.js, and MongoDB. I'm skilled in Git
+              and GitHub for version control and project management. Let's
+              collaborate to bring your ideas to life!
             </p>
             <div className="flex flex-wrap justify-center gap-[10px] mt-[15px] mb-[10px]">
               <div className="bg-white px-[10px] py-[5px] rounded-[10px] text-[15px] font-[Poppins] text-black">
