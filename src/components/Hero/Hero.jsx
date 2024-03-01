@@ -43,15 +43,13 @@ const Hero = () => {
           </span>
         </h1>
         <p className="font-[Poppins] text-white text-center xl:text-start xl:max-w-[600px] text-[15px] xl:text-[20px] mt-[12px]">
-          A digital code bender 👨🏿‍💻😎 on a mission to shape exceptional
-          experiences. Let's collaborate to craft digital wonders that captivate
-          and inspire. Front-end explorer by day, back-end architect by
-          night—ready to turn your ideas into reality. With a keen eye for
-          detail and strong project management skills, I ensure smooth sailing
-          from concept to launch. Crafting interfaces that are as delightful as
-          they are functional. From TypeScript to MongoDB, let's build something
-          amazing together! Ready to bring your digital dreams to life? Let's
-          make it happen! ✨
+          I'm a digital code bender 👨🏿‍💻😎 crafting exceptional digital
+          experiences. Let's collaborate to bring your ideas to life! By day, I
+          focus on front-end design, by night, I architect back-end systems.
+          With attention to detail and strong project management, I ensure
+          smooth sailing from concept to launch. Let's build something amazing
+          together—from TypeScript to MongoDB. Ready to make your digital dreams
+          a reality? Let's do it! ✨
         </p>
         <div className="flex justify-center xl:justify-start mt-[20px] w-full xl:ml-[-10px] xl:jusify-center">
           <img
