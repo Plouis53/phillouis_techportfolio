@@ -86,7 +86,7 @@ const Background = ({ handleOpenConfirmModal }) => {
             onClick={handleOpenConfirmModal}
             className="font-[Poppins] py-[10px] px-[40px] rounded-full bg-[#f5dfa1] text-black w-fit m-auto shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:scale-110 duration-[.5s] ease-in-out"
           >
-            Resume
+            Résumé
           </button>
         </div>
         <div className="flex md:flex-col gap-[20px] align-center w-full md:max-w-[50%] h-[750px] rounded-xl">
