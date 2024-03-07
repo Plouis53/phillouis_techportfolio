@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8c6c6540.css",
-    "main.js": "/static/js/main.880bdb42.js",
+    "main.js": "/static/js/main.47f9166c.js",
     "static/js/453.f662b771.chunk.js": "/static/js/453.f662b771.chunk.js",
     "static/media/Image2.png": "/static/media/Image2.07de97f25c06ffb5a858.png",
     "static/media/Image1.png": "/static/media/Image1.bffdba64b8bc319b08aa.png",
@@ -12,7 +12,7 @@
     "static/media/Portfolio.png": "/static/media/Portfolio.ef487f6832ed91ddedc4.png",
     "static/media/Joshua.png": "/static/media/Joshua.cc56a2fa158e1b354557.png",
     "static/media/Vishal.png": "/static/media/Vishal.2540b6c0be27884279b5.png",
-    "static/media/SDE_v2_Phillippe_Louis_Resume.pdf": "/static/media/SDE_v2_Phillippe_Louis_Resume.9ebdf2da969e3a2b4af2.pdf",
+    "static/media/SDE_v3_Phillippe_Louis_Resume.pdf": "/static/media/SDE_v3_Phillippe_Louis_Resume.d1e69b722d72b28e511b.pdf",
     "static/media/Portrait4.png": "/static/media/Portrait4.5244e6e427ccda8029c1.png",
     "static/media/React.svg": "/static/media/React.fc6e229a139c947491ddc12f82c286bd.svg",
     "static/media/NODE.svg": "/static/media/NODE.3011066dec1a7ffa648085f5cf5865bc.svg",
@@ -29,11 +29,11 @@
     "static/media/Filter.svg": "/static/media/Filter.c9fde2ba07e4c5055f75.svg",
     "static/media/Menu.svg": "/static/media/Menu.385a0d0280d423c930a8.svg",
     "main.8c6c6540.css.map": "/static/css/main.8c6c6540.css.map",
-    "main.880bdb42.js.map": "/static/js/main.880bdb42.js.map",
+    "main.47f9166c.js.map": "/static/js/main.47f9166c.js.map",
     "453.f662b771.chunk.js.map": "/static/js/453.f662b771.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c6c6540.css",
-    "static/js/main.880bdb42.js"
+    "static/js/main.47f9166c.js"
   ]
 }
