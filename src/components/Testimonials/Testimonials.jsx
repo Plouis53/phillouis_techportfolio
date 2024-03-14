@@ -11,7 +11,7 @@ const Testimonials = ({ openModal }) => {
       <h1 className="pb-[10px] font-[Poppins] text-[30px] md:text-[50px] text-white font-semibold border-b border-white-[1px]">
         Testimonials
         <span className="text-[15px] md:text-[20px] font-normal">
-          via LinkedIn
+           via LinkedIn
         </span>
       </h1>
       <div className="flex flex-col items-center gap-[20px] md:gap-[75px] md:flex-row md:justify-center">
