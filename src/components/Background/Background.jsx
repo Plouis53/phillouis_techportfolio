@@ -130,32 +130,6 @@ const Background = ({ handleOpenConfirmModal }) => {
                 <p>Risk Response</p>
               </div>
             </div>
-            {/* <button
-              onClick={openModal}
-              href="#_"
-              className="hidden lg:inline-flex shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] relative lg:items-center justify-center px-[24px] py-[12px] w-[200px] m-auto mt-[20px] mb-[10px] overflow-hidden font-medium bg-[#f5dfa1] text-black transition duration-300 ease-out rounded-full group"
-            >
-              <span className="absolute inset-0 flex items-center justify-center w-full h-full text-black duration-300 -translate-x-full bg-[#f5dfa1] group-hover:translate-x-0 ease">
-                <svg
-                  className="w-6 h-6"
-                  fill="none"
-                  stroke="black"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M14 5l7 7m0 0l-7 7m7-7H3"
-                  ></path>
-                </svg>
-              </span>
-              <span className="absolute flex items-center justify-center w-full h-full text-black transition-all duration-300 transform group-hover:translate-x-full ease">
-                Contact
-              </span>
-              <span className="relative invisible">Contact</span>
-            </button> */}
           </div>
         </div>
       </div>
