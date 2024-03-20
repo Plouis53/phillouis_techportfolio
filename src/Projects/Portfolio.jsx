@@ -2,8 +2,9 @@ import React from "react";
 import Tailwind from "../assets/Tailwind.svg";
 import ReactLogo from "../assets/React.svg";
 import PortfolioImage from "../images/Portfolio.png";
+import Netlify from "../assets/Netlify.svg";
+import White from "../../src/images/WhiteImage.png";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
-import NODE from "../assets/NODE.svg";
 
 const MyPortfolio = ({ showCard, category }) => {
   return (
@@ -14,10 +15,12 @@ const MyPortfolio = ({ showCard, category }) => {
     >
       <ProjectCard
         title={"My Portfolio"}
-        ProjectImage={PortfolioImage}
         Stackone={ReactLogo}
         Stacktwo={Tailwind}
-        Stackthree={NODE}
+        Stackthree={Netlify}
+        Stackfour={White}
+        Stackfive={White}
+        ProjectImage={PortfolioImage}
         Description={
           <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
             The website you're currently exploring was created using React and

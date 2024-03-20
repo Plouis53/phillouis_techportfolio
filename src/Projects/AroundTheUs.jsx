@@ -1,9 +1,10 @@
-import React from "react";
-import HTML from "../assets/HTML.svg";
-import CSS from "../assets/CSS.svg";
-import JS from "../assets/JS.svg";
-import US from "../images/Us.png";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
+import HTML from "../../src/assets/HTML.svg";
+import CSS from "../../src/assets/CSS.svg";
+import JavaScript from "../../src/assets/JavaScript.svg";
+import US from "../../src/images/Us.png";
+import White from "../../src/images/WhiteImage.png";
+import React from "react";
 
 const AroundTheUs = ({ showCard, category }) => {
   return (
@@ -14,10 +15,12 @@ const AroundTheUs = ({ showCard, category }) => {
     >
       <ProjectCard
         title={"Around The US"}
-        ProjectImage={US}
         Stackone={HTML}
         Stacktwo={CSS}
-        Stackthree={JS}
+        Stackthree={JavaScript}
+        Stackfour={White}
+        Stackfive={White}
+        ProjectImage={US}
         Description={
           <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
             Explore Around the US, a JavaScript project focused on

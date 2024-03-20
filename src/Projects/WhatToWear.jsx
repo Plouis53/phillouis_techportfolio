@@ -1,10 +1,9 @@
-// import HTML from "../assets/HTML.svg";
-// import CSS from "../assets/CSS.svg";
-import JS from "../assets/JS.svg";
+import JavaScript from "../assets/JavaScript.svg";
 import React from "../assets/React.svg";
 import WTWR1 from "../images/WTWR1.png";
-// import NODE from "../assets/NODE.svg";
-import Mongo from "../assets/Mongodb.svg";
+import NODE from "../assets/NODE.svg";
+import Mongo from "../assets/Mongo.svg";
+import Cloud from "../assets/Cloud.svg";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
 
 const WhatToWear = ({ showCard, category }) => {
@@ -16,11 +15,12 @@ const WhatToWear = ({ showCard, category }) => {
     >
       <ProjectCard
         title={"What to Wear"}
-        ProjectImage={WTWR1}
         Stackone={React}
-        Stacktwo={JS}
+        Stacktwo={JavaScript}
         Stackthree={Mongo}
-        // Stackfour={NODE}
+        Stackfour={NODE}
+        Stackfive={Cloud}
+        ProjectImage={WTWR1}
         Description={
           <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
             What to Wear is a user-friendly app with personalized profiles and

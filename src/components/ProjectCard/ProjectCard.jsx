@@ -6,6 +6,8 @@ const ProjectCard = ({
   Stackone,
   Stacktwo,
   Stackthree,
+  Stackfour,
+  Stackfive,
   Description,
   LiveSite,
   Code,
@@ -23,9 +25,26 @@ const ProjectCard = ({
           <h1 className="text-ellipsis overflow-hidden whitespace-nowrap font-[Poppins] font-semibold text-black text-[20px] md:text-[25px]">
             {title}
           </h1>
-          <img src={Stackone} className="h-[35px] w-[35px] self-center" />
-          <img src={Stacktwo} className="h-[35px] w-[35px] self-center" />
-          <img src={Stackthree} className="h-[35px] w-[35px] self-center" />
+          <img
+            src={Stackone}
+            className="h-[25px] rounded-sm w-[25px] self-center"
+          />
+          <img
+            src={Stacktwo}
+            className="h-[25px] rounded-sm w-[25px] self-center"
+          />
+          <img
+            src={Stackthree}
+            className="h-[25px] rounded-sm w-[25px] self-center"
+          />
+          <img
+            src={Stackfour}
+            className="h-[25px] rounded-sm w-[25px] self-center"
+          />
+          <img
+            src={Stackfive}
+            className="h-[25px] rounded-sm w-[25px] self-center"
+          />
         </div>
         <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
           {Description}

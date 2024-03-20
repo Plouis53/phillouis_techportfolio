@@ -1,9 +1,11 @@
-import React from "react";
-import TSLogo from "../assets/TypeScript4.svg";
-import SynthesisWorkshop1 from "../images/Synthesis-Workshop.png";
-import ReactLogo from "../assets/React.svg";
-import NODE from "../assets/NODE.svg";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
+import TypeScript from "../assets/typescript.svg";
+import AWSDD from "../assets/AwsDD.svg";
+import SynthesisWorkshop1 from "../images/Synthesis-Workshop.png";
+import ReactImg from "../assets/React.svg";
+import NODE from "../assets/NODE.svg";
+import White from "../../src/images/WhiteImage.png";
+import React from "react";
 
 const SynthesisWorkshop = ({ showCard, category }) => {
   return (
@@ -14,10 +16,12 @@ const SynthesisWorkshop = ({ showCard, category }) => {
     >
       <ProjectCard
         title={"Synthesis-Workshop"}
-        ProjectImage={SynthesisWorkshop1}
-        Stackone={TSLogo}
+        Stackone={TypeScript}
         Stacktwo={NODE}
-        Stackthree={ReactLogo}
+        Stackthree={ReactImg}
+        Stackfour={AWSDD}
+        Stackfive={White}
+        ProjectImage={SynthesisWorkshop1}
         Description={
           <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
             The Synthesis-Workshop project is an educational platform for
