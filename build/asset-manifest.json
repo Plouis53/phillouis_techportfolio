@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.79e2ef63.css",
-    "main.js": "/static/js/main.a6070152.js",
+    "main.css": "/static/css/main.cf2d722b.css",
+    "main.js": "/static/js/main.81c6ca64.js",
     "static/js/453.f662b771.chunk.js": "/static/js/453.f662b771.chunk.js",
     "static/media/Image2.png": "/static/media/Image2.07de97f25c06ffb5a858.png",
     "static/media/Image1.png": "/static/media/Image1.bffdba64b8bc319b08aa.png",
@@ -11,8 +11,8 @@
     "static/media/WTWR1.png": "/static/media/WTWR1.76f09c179f7a587f7553.png",
     "static/media/Portfolio.png": "/static/media/Portfolio.ef487f6832ed91ddedc4.png",
     "static/media/Joshua.png": "/static/media/Joshua.cc56a2fa158e1b354557.png",
-    "static/media/SDE_v7_Phillippe_Louis_Resume.pdf": "/static/media/SDE_v7_Phillippe_Louis_Resume.eea8a8ce2a6e534bd842.pdf",
     "static/media/Vishal.png": "/static/media/Vishal.2540b6c0be27884279b5.png",
+    "static/media/SDE_v8_Phillippe_Louis_Resume.pdf": "/static/media/SDE_v8_Phillippe_Louis_Resume.d32c79ecd1585c5098c7.pdf",
     "static/media/Portrait4.png": "/static/media/Portrait4.5244e6e427ccda8029c1.png",
     "static/media/NODE.svg": "/static/media/NODE.cc7756c9172a5183719fbbd4dc8e6631.svg",
     "static/media/AwsDD.svg": "/static/media/AwsDD.a9170a04ffe9b9054cc5956c8cfeeec0.svg",
@@ -31,12 +31,12 @@
     "static/media/Mail.svg": "/static/media/Mail.f6686ca6a97e64a84206.svg",
     "static/media/Filter.svg": "/static/media/Filter.c9fde2ba07e4c5055f75.svg",
     "static/media/Menu.svg": "/static/media/Menu.385a0d0280d423c930a8.svg",
-    "main.79e2ef63.css.map": "/static/css/main.79e2ef63.css.map",
-    "main.a6070152.js.map": "/static/js/main.a6070152.js.map",
+    "main.cf2d722b.css.map": "/static/css/main.cf2d722b.css.map",
+    "main.81c6ca64.js.map": "/static/js/main.81c6ca64.js.map",
     "453.f662b771.chunk.js.map": "/static/js/453.f662b771.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79e2ef63.css",
-    "static/js/main.a6070152.js"
+    "static/css/main.cf2d722b.css",
+    "static/js/main.81c6ca64.js"
   ]
 }

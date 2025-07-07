@@ -3,11 +3,13 @@ import React from "react";
 const ProjectCard = ({
   title,
   ProjectImage,
+  MentalApp,
   Stackone,
   Stacktwo,
   Stackthree,
   Stackfour,
   Stackfive,
+   Stacksix,
   Description,
   LiveSite,
   Code,
@@ -17,6 +19,11 @@ const ProjectCard = ({
     <>
       <img
         src={ProjectImage}
+        alt="Photo of project"
+        className="rounded-lg top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
+      ></img>
+      <img
+        src={MentalApp}
         alt="Photo of project"
         className="rounded-lg top-[-70px] position: relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
       ></img>
@@ -43,6 +50,10 @@ const ProjectCard = ({
           />
           <img
             src={Stackfive}
+            className="h-[25px] rounded-sm w-[25px] self-center"
+          />
+          <img
+            src={Stacksix}
             className="h-[25px] rounded-sm w-[25px] self-center"
           />
         </div>
