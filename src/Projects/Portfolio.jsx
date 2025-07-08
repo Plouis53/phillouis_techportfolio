@@ -21,19 +21,15 @@ const MyPortfolio = ({ showCard, category }) => {
         Stackfour={White}
         Stackfive={White}
         ProjectImage={PortfolioImage}
-        Description={
-          <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
-            The website you're currently exploring was created using React and
-            Tailwind CSS. My portfolio offers you insights into both my role as
-            a developer and a project manager! Feel free to click the 'Contact'
-            option found in both the Navigation and About Me sections to access
-            a form for reaching out to me.
-          </p>
-        }
+        Description={<p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
+          The website you're currently exploring was created using React and
+          Tailwind CSS. My portfolio offers you insights into both my role as
+          a developer and a project manager! Feel free to click the 'Contact'
+          option found in both the Navigation and About Me sections to access
+          a form for reaching out to me.
+        </p>}
         LiveSite={"https://prlouisportfolio.com/"}
-        Code={"https://github.com/Plouis53/phillouis_techportfolio.git"}
-        className={undefined}
-      />
+        Code={"https://github.com/Plouis53/phillouis_techportfolio.git"} className={undefined}      />
     </div>
   );
 };
