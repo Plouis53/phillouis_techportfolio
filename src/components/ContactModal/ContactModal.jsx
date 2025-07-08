@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import { useForm } from "react-hook-form";
@@ -14,18 +14,17 @@ const ContactModal = ({ closeModal, handleOpenMessageModal }) => {
 
     emailjs
       .sendForm(
-        "service_s0j8x7f",
-        "template_ydsbm4b",
-        form.current,
-        "Xj532ZUsZU6IaUBTj"
+        "service_mmdwm2a", // Your service ID
+        "template_z4p4cjg", // Your template ID
+        form.current, // Form reference
+        "Xj532ZUsZU6IaUBTj" // Your user ID
       )
       .then(
         (result) => {
-          console.log(result.text);
+          console.log(result.text); // If successful, log success
         },
         (error) => {
-          console.log(error.text);
-          console.log("FAILED...", error.text);
+          console.log(error.text); // If error occurs, log error message
         }
       );
   };
@@ -56,7 +55,7 @@ const ContactModal = ({ closeModal, handleOpenMessageModal }) => {
       <div className="flex justify-center pt-8 pb-5">
         <button
           onClick={sendEmail}
-          className={`font-[Poppins] text-lg w-full rounded-[10px] py-4 px-4 border-black border-[1px] text-white bg-blackhover:scale-105 ease-out duration-75 ${className}`}
+          className={`font-[Poppins] text-lg w-full rounded-[10px] py-4 px-4 border-black border-[1px] text-white bg-black hover:scale-105 ease-out duration-75 ${className}`}
           type="submit"
         >
           {title}
@@ -83,7 +82,7 @@ const ContactModal = ({ closeModal, handleOpenMessageModal }) => {
     <ReusableModal>
       <button
         onClick={closeModal}
-        className="text-black text-[20px] font-semibold positon: absolute w-[30px] h-[30px] bg-no-repeat top-3 right-3"
+        className="text-black text-[20px] font-semibold position: absolute w-[30px] h-[30px] bg-no-repeat top-3 right-3"
       >
         X
       </button>
@@ -117,7 +116,9 @@ const ContactModal = ({ closeModal, handleOpenMessageModal }) => {
             minLength="3"
             required
           />
-          {errors.name && <Feedback message={errors.name.message} />}
+          {errors.name && (
+            <Feedback message={errors.name.message} className={undefined} />
+          )}
           <label className="font-[Poppins] text-black text-[16px] font-semibold">
             Email
           </label>
@@ -138,7 +139,9 @@ const ContactModal = ({ closeModal, handleOpenMessageModal }) => {
             placeholder="Your email"
             required
           />
-          {errors.email && <Feedback message={errors.email.message} />}
+          {errors.email && (
+            <Feedback message={errors.email.message} className={undefined} />
+          )}
           <label className="font-[Poppins] text-black text-[16px] font-semibold">
             Your message
           </label>
@@ -159,11 +162,13 @@ const ContactModal = ({ closeModal, handleOpenMessageModal }) => {
             maxLength="100"
             required
           />
-          {errors.message && <Feedback message={errors.message.message} />}
+          {errors.message && (
+            <Feedback message={errors.message.message} className={undefined} />
+          )}
           {isValid ? (
-            <Submit title={"Submit"} />
+            <Submit title={"Submit"} className={undefined} />
           ) : (
-            <SubmitInvalid title={"Submit"} />
+            <SubmitInvalid title={"Submit"} className={undefined} />
           )}
         </form>
       </div>
@@ -172,6 +177,181 @@ const ContactModal = ({ closeModal, handleOpenMessageModal }) => {
 };
 
 export default ContactModal;
+
+// import React from "react";
+// import emailjs from "@emailjs/browser";
+// import { useRef } from "react";
+// import { useForm } from "react-hook-form";
+// import ReusableModal from "../Modal/Modal";
+
+// const ContactModal = ({ closeModal, handleOpenMessageModal }) => {
+//   const form = useRef();
+
+//   const sendEmail = (e) => {
+//     e.preventDefault();
+//     closeModal();
+//     handleOpenMessageModal();
+
+//     emailjs
+//       .sendForm(
+//         "service_s0j8x7f",
+//         "template_ydsbm4b",
+//         form.current,
+//         "Xj532ZUsZU6IaUBTj"
+//       )
+//       .then(
+//         (result) => {
+//           console.log(result.text);
+//         },
+//         (error) => {
+//           console.log(error.text);
+//           console.log("FAILED...", error.text);
+//         }
+//       );
+//   };
+
+//   const {
+//     register,
+//     setValue,
+//     handleSubmit,
+//     formState: { errors, isValid },
+//   } = useForm({
+//     defaultValues: {
+//       name: "",
+//       email: "",
+//       message: "",
+//     },
+//   });
+
+//   const Feedback = ({ className, message }) => {
+//     return (
+//       <p className={`text-left text-error-message text-[#FF4040] ${className}`}>
+//         {message}
+//       </p>
+//     );
+//   };
+
+//   const Submit = ({ title, className }) => {
+//     return (
+//       <div className="flex justify-center pt-8 pb-5">
+//         <button
+//           onClick={sendEmail}
+//           className={`font-[Poppins] text-lg w-full rounded-[10px] py-4 px-4 border-black border-[1px] text-white bg-blackhover:scale-105 ease-out duration-75 ${className}`}
+//           type="submit"
+//         >
+//           {title}
+//         </button>
+//       </div>
+//     );
+//   };
+
+//   const SubmitInvalid = ({ title, className }) => {
+//     return (
+//       <div className="flex justify-center pt-8 pb-5">
+//         <button
+//           className={`font-[Poppins] text-lg w-full rounded-[10px] py-4 px-4 border-black border-[1px] text-white bg-black opacity-50 cursor-not-allowed ${className}`}
+//           type="submit"
+//           disabled
+//         >
+//           {title}
+//         </button>
+//       </div>
+//     );
+//   };
+
+//   return (
+//     <ReusableModal>
+//       <button
+//         onClick={closeModal}
+//         className="text-black text-[20px] font-semibold positon: absolute w-[30px] h-[30px] bg-no-repeat top-3 right-3"
+//       >
+//         X
+//       </button>
+//       <div className="w-[250px] md:w-[400px] mt-[20px]">
+//         <form
+//           ref={form}
+//           onSubmit={sendEmail}
+//           className="flex flex-col align-middle gap-[10px]"
+//         >
+//           <h1 className="font-[Poppins] text-center text-black text-[30px] font-semibold md:text-[50px]">
+//             Contact me
+//           </h1>
+//           <label className="font-[Poppins] text-black text-[16px] font-semibold">
+//             Name
+//           </label>
+//           <input
+//             {...register("name", {
+//               required: "Name is required",
+//               minLength: {
+//                 value: 2,
+//                 message: "Use 2 or more characters",
+//               },
+//             })}
+//             onChange={(evt) => {
+//               setValue("name", evt.target.value, { shouldValidate: true });
+//             }}
+//             className="border-black border-[1px] p-[7px] rounded-[10px] text-black bg-white"
+//             type="text"
+//             name="user_name"
+//             placeholder="Your name"
+//             minLength="3"
+//             required
+//           />
+//           {errors.name && <Feedback message={errors.name.message} />}
+//           <label className="font-[Poppins] text-black text-[16px] font-semibold">
+//             Email
+//           </label>
+//           <input
+//             {...register("email", {
+//               required: "Email is required",
+//               pattern: {
+//                 value: /[\w\-\.]+@([\w\-]+\.)+[\w\-]{2,4}/,
+//                 message: "Invalid Email",
+//               },
+//             })}
+//             onChange={(evt) => {
+//               setValue("email", evt.target.value, { shouldValidate: true });
+//             }}
+//             className="border-black border-[1px] p-[7px] rounded-[10px] text-black bg-white"
+//             type="email"
+//             name="user_email"
+//             placeholder="Your email"
+//             required
+//           />
+//           {errors.email && <Feedback message={errors.email.message} />}
+//           <label className="font-[Poppins] text-black text-[16px] font-semibold">
+//             Your message
+//           </label>
+//           <textarea
+//             {...register("message", {
+//               minLength: {
+//                 value: 10,
+//                 message: "Message required",
+//               },
+//             })}
+//             onChange={(evt) => {
+//               setValue("message", evt.target.value, { shouldValidate: true });
+//             }}
+//             className="border-[1px] border-black p-[7px] rounded-[10px] text-black h-[100px] bg-white"
+//             placeholder="Type your message"
+//             name="message"
+//             minLength="4"
+//             maxLength="100"
+//             required
+//           />
+//           {errors.message && <Feedback message={errors.message.message} />}
+//           {isValid ? (
+//             <Submit title={"Submit"} />
+//           ) : (
+//             <SubmitInvalid title={"Submit"} />
+//           )}
+//         </form>
+//       </div>
+//     </ReusableModal>
+//   );
+// };
+
+// export default ContactModal;
 
 // import React from "react";
 // import { useRef } from "react";

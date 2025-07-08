@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import Tailwind from "../assets/Tailwind.svg";
 import ReactLogo from "../assets/React.svg";
 import PortfolioImage from "../images/Portfolio.png";
