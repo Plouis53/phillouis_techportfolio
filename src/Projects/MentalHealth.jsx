@@ -24,15 +24,9 @@ const MentalHealth = ({ showCard, category }) => {
         ProjectImage={MentalHealth1}
         Description={
           <p className="font-[Poppins] text-black text-[14px] xs:text-[15px]">
-            A front-end demo application built using Next.js, TypeScript, and
-            Tailwind CSS, designed to showcase how clinical content can be
-            organized and displayed for mental health professionals. This
-            mock-up allows users to create and view mental health posts,
-            including titles, categories, author names, images, briefs, and
-            resource links. It features basic form handling and UI
-            interactivity. While primarily front-end, the app connects to
-            MongoDB for simple data storage using lightweight configuration—no
-            full backend framework or server logic included.
+            A front-end demo built with Next.js, TypeScript, and Tailwind CSS to
+            display and create mental health posts. Includes basic form handling
+            and lightweight MongoDB integration.
           </p>
         }
         LiveSite={"https://prlouisportfolio.com/"}
