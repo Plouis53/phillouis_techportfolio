@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import ReusableModal from "../Modal/Modal";
-import ResumePDF from "../../images/SDE_v8_Phillippe_Louis_Resume.pdf";
+import ResumePDF from "../../images/SDE_SrPM_7825_Phillippe_Louis_Résumé.pdf";
 
 const ResumeConfirmModal = ({ handleCloseConfirmModal }) => {
   const closeModal = () => {
