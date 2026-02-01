@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import MentalHealth from "../Projects/MentalHealth.jsx";
+import LawFirm from "./LawFirm.jsx";
 import SynthesisWorkshop from "../Projects/Synthesis-Workshop.jsx";
 import NewsExplorer from "../Projects/NewsExplorer.jsx";
 import WhatToWear from "../Projects/WhatToWear.jsx";
@@ -64,6 +65,7 @@ const Projects = () => {
         <AroundTheUs category="Front-End" showCard={showCard} />
         <SynthesisWorkshop category="Full-Stack" showCard={showCard} />
         <MentalHealth category="Front-End" showCard={showCard} />
+        <LawFirm category="Front-End" showCard={showCard} />
       </div>
     </div>
   );
